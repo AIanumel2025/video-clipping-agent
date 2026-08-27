@@ -97,10 +97,18 @@ def _download_youtube_video(url: str, workdir: Path) -> Path:
         return existing[0]
 
     out_template = str(workdir / "%(id)s.%(ext)s")
-    subprocess.run(
+    result = subprocess.run(
         ["yt-dlp", "-f", "mp4", "-o", out_template, url],
-        check=True,
+        capture_output=True, text=True,
     )
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"yt-dlp failed (exit code {result.returncode}) downloading {url}.\n"
+            f"If this mentions sign-in or a 429, it's very likely YouTube "
+            f"bot-blocking requests from this machine's IP (common on cloud/"
+            f"datacenter IPs, including Colab) -- not a bug in this code.\n"
+            f"--- yt-dlp output ---\n{result.stderr}"
+        )
     matches = sorted(workdir.glob("*.mp4"))
     if not matches:
         raise FileNotFoundError(

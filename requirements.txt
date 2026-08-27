@@ -4,21 +4,29 @@
 #     macOS:         brew install ffmpeg
 #     Colab:         already present, nothing to do.
 
-# Pinned before whisperx, not after. In a fresh environment this means pip's
-# resolver satisfies numpy<2.1 from the start, so whisperx never gets a
-# chance to pull in an incompatible version in the first place -- numba and
-# cudf both need numpy<2.1, and installing whisperx alone (without this
-# pin) upgrades numpy past that, breaking already-loaded modules.
+# --- numpy ---
+# Earlier drafts of this project pinned numpy<2.1, based on a real
+# conflict hit while this codebase still lived in a single Colab
+# notebook (numba/cudf in that environment needed numpy<2.1). That pin
+# got carried into this file, but was verified live against a real
+# Colab session (2026-08-27) to be actively WRONG for the current
+# environment: it forced pip to backtrack all the way down to
+# whisperx 3.7.0 to satisfy it, which pulled in a years-old
+# pyannote.audio that calls a torchaudio API (AudioMetaData) removed in
+# torchaudio 2.2+ -- crashing on import before the pipeline could run
+# at all. Upgrading pyannote.audio by hand only moved the mismatch
+# (old whisperx calling a renamed pyannote argument next); the actual
+# fix was removing this ceiling and letting whisperx's own dependency
+# resolution pick a consistent, modern set on its own.
 #
-# Note for Colab specifically: if you're installing this into a session
-# that already has a newer numpy loaded from Colab's base image before you
-# run this file, you may still need to restart the runtime once after
-# installing -- same underlying cause (an incompatible numpy already
-# loaded in memory), just avoided by construction in a clean environment.
-numpy<2.1
+# Confirmed working end to end, against real audio, via `pip freeze`
+# after a real successful run: numpy 2.5.2, whisperx 3.8.6,
+# pyannote-audio 4.0.7 (pulled in automatically as whisperx's own
+# dependency -- no need to pin it directly), torch/torchaudio 2.8.0.
+numpy>=2.1
 
 torch
-whisperx
+whisperx>=3.8.6
 sentence-transformers
 yt-dlp
 

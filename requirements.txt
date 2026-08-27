@@ -1,0 +1,28 @@
+# System dependencies (not pip-installable -- install separately):
+#   ffmpeg + ffprobe
+#     Debian/Ubuntu: apt-get install ffmpeg
+#     macOS:         brew install ffmpeg
+#     Colab:         already present, nothing to do.
+
+# Pinned before whisperx, not after. In a fresh environment this means pip's
+# resolver satisfies numpy<2.1 from the start, so whisperx never gets a
+# chance to pull in an incompatible version in the first place -- numba and
+# cudf both need numpy<2.1, and installing whisperx alone (without this
+# pin) upgrades numpy past that, breaking already-loaded modules.
+#
+# Note for Colab specifically: if you're installing this into a session
+# that already has a newer numpy loaded from Colab's base image before you
+# run this file, you may still need to restart the runtime once after
+# installing -- same underlying cause (an incompatible numpy already
+# loaded in memory), just avoided by construction in a clean environment.
+numpy<2.1
+
+torch
+whisperx
+sentence-transformers
+yt-dlp
+
+# IPython is used only by agent/verify.py's optional spot-check playback
+# (Colab/Jupyter only) -- not required to run the core pipeline, and
+# already present in Colab. Not listed here; add ipython manually if you
+# want spot-check playback outside a notebook environment.

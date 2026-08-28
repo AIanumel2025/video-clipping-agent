@@ -1,15 +1,15 @@
-# Incremental Video Transcript Alignment & Clip Extraction
+# A Video Clipping Agent
 
 An agent that takes a video and its transcript and produces correctly-timed
 clips. On a re-run with an edited transcript, it diffs old vs. new, works
-out what changed, and only re-processes the segments that need
+out what actually changed, and only re-processes the segments that need
 it — reusing cached alignment, embeddings, and clip files everywhere else.
 
-The agent solves the problem of re-cutting an entire video from scratch every
+The problem this solves: re-cutting an entire video from scratch every
 time a transcript gets a single wording fix doesn't scale. This agent
-detects what changes and reprocesses only the affected segments.
+detects what changed and reprocesses only the affected segments.
 
-## My Framework
+## How it's organized
 
 Two pipelines, both callable as a single function from `agent/pipeline.py`:
 
@@ -38,15 +38,15 @@ run_incremental_pipeline("https://youtube.com/watch?v=YOUR_VIDEO_ID")
 ## Installation
 
 ```bash
-git clone https://github.com/AIanumel2025/video-transcript-clip-extraction
-cd video-transcript-clip-extraction
+git clone https://github.com/AIanumel2025/video-clipping-agent
+cd video-clipping-agent
 pip install -r requirements.txt        # to run the pipeline
 pip install -r requirements-dev.txt    # to also run the test suite
 ```
 
 `ffmpeg` and `ffprobe` are required and are **not** pip-installable —
-`apt-get install ffmpeg` (for Debian/Ubuntu), `brew install ffmpeg` (for macOS),
-or already present if you're running in Colab.
+`apt-get install ffmpeg` (Debian/Ubuntu), `brew install ffmpeg` (macOS),
+or already present if you're running this in Colab.
 
 ## Input
 
@@ -127,6 +127,28 @@ Each segment decision then drives a clip-level decision:
   timestamp. Swapping in a real windowed whisperx call here is the
   single largest piece of unfinished work in this project.
 
+## Verified against real content
+
+Both pipelines have been run end to end against a real ~60-minute
+interview (140 segments, 16 flagged clips), on real hardware (Colab,
+GPU) — not just the test suite's synthetic fixture.
+
+**Run 1 (baseline):** produced 16 correctly-titled clips, matching what
+the original, pre-refactor notebook had already validated — same
+segments, same titles, same count.
+
+**Run 2 (incremental),** against a real edited transcript (one segment
+reworded, one deleted, one inserted): correctly classified all three
+changes (`{'unchanged': 138, 'edited': 1, 'deleted': 1, 'inserted': 1}`),
+computed a real embedding similarity (0.880) that correctly routed the
+rework to `PATCH`, propagated a compounding -13.89s delta across 124
+downstream `VERIFY_SHIFT` segments, correctly left the 2 untouched clips
+alone and re-cut the 14 that had actually moved — confirmed against the
+running cumulative delta, and by spot-listening to the affected clips
+(`agent/verify.py`'s `spot_check_clips()`).
+
+Notebooks for both runs live in `notebooks/` (see below).
+
 ## Repo structure
 
 ```
@@ -136,7 +158,7 @@ agent/
   locate.py       select segments flagged for clipping
   align.py        audio extraction, ASR caching, forced alignment
   attribute.py    word-to-segment re-attribution after alignment
-  verify.py       interactive spot-check playback (Colab/Jupyter only)
+  verify.py       interactive spot-check and clip verification (Colab/Jupyter only)
   cutter.py       ffmpeg clip cutting
   manifest.py     manifest.json writer
   state.py        hashing, state.json persistence, sanity checks
@@ -148,6 +170,9 @@ agent/
   clip_reuse.py   decides which clip files are still valid
   commit.py       executes clip decisions, persists the result
   pipeline.py     orchestrates both pipelines end to end
+notebooks/
+  01_development.ipynb    the original build, phase by phase
+  02_verification.ipynb   real-model verification run (see above)
 scripts/
   generate_fixtures.py   synthetic test fixture for the smoke test
 tests/
@@ -180,7 +205,10 @@ pytest -m "not smoke"   # Tier 1 only, for quick iteration
 ## Known limitations
 
 - Stage 2's `PATCH`/`FULL_REALIGN`/`NEW` timing is mocked (see above) —
-  not yet backed by real windowed re-alignment.
-- Dependency versions in `requirements.txt` are not pinned to exact
-  numbers yet — pin them from `pip freeze` in a known-working environment
-  for full reproducibility.
+  not yet backed by real windowed re-alignment. Confirmed still mocked
+  during the real verification run above; the estimate held up
+  reasonably well by ear, but it's still an estimate, not alignment.
+- YouTube downloads via `yt-dlp` can get blocked by bot-detection on
+  cloud/datacenter IPs, including Colab — hit live during verification.
+  `resolve_video()` accepts a local or Drive file path as a reliable
+  fallback; there's no cookie-based workaround built in yet.

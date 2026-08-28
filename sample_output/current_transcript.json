@@ -1,0 +1,861 @@
+{
+  "video_id": "brewster_kahle_interview",
+  "segments": [
+    {
+      "id": "seg_001",
+      "speaker": "Brewster Kahle",
+      "text": "Record and post everywhere!",
+      "make_clip": false
+    },
+    {
+      "id": "seg_002",
+      "speaker": "Ian Milligan",
+      "text": "Perfect.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_003",
+      "speaker": "Brewster Kahle",
+      "text": "And please do with public domain!",
+      "make_clip": false
+    },
+    {
+      "id": "seg_004",
+      "speaker": "Ian Milligan",
+      "text": "OK, great. Well, that makes it easy because I know Caitlin reviewed the form, but the the three check marks on the form were mostly just making sure you're comfortable with recording the interview, transcribing the interview, and then having any quotations in your interview being ascribed by name to you.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_005",
+      "speaker": "Brewster Kahle",
+      "text": "Would love it, post it \u2013 public domain.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_006",
+      "speaker": "Ian Milligan",
+      "text": "Perfect, wonderful. Yeah, and hopefully we could put on the Internet archive, so that would be great.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_007",
+      "speaker": "Ian Milligan",
+      "text": "Well, I thought I thought we just jump in because hopefully we can cover a fair bit of ground today.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_008",
+      "speaker": "Ian Milligan",
+      "text": "So Brewster, I thought we might start if we could go way back in time to your time at MIT and, you know, where the origin of your idea of creating a new \"Library of Alexandria\" came from?",
+      "make_clip": true,
+      "clip_title": "The Question That Started It All"
+    },
+    {
+      "id": "seg_009",
+      "speaker": "Brewster Kahle",
+      "text": "Actually, it was a friend of mine [who] challenged me.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_010",
+      "speaker": "Brewster Kahle",
+      "text": "He said \"Brewster, you're an idealist.\" I said, \"yes and a technologist, yes.\" And he said, \"paint a portrait that is better because of the future. That's better because of your technology.\" And this turned out to be extremely hard! So I walked back and forth over the bridge, back and forth from Boston to Cambridge as I walked back and forth to school. And I could only come up with two ideas. And one was too obvious. So I thought other people would do it. So I went for the other one, which was to try to protect people's privacy because people are just going to throw it away. And this is 1980. And so I went off to try to figure out how to make computer chips to go and encrypt people's phone conversations, and I figured that I had to make it so cheap and offer other features other than privacy, because nobody's going to pay for privacy and they're not going to do anything for privacy, they're just going to throw it away. But I found that I couldn't. So after a while of building chips and things, I couldn't figure out how to do it cheaply enough. So I went to Plan B, which was to build the Library of Alexandria version two. How do you make all the published works of humankind available to everybody, forever, for free?",
+      "make_clip": true,
+      "clip_title": "Plan B: The Library of Alexandria, Version Two"
+    },
+    {
+      "id": "seg_011",
+      "speaker": "Brewster Kahle",
+      "text": "And can you make it so that if you... Any one who was curious enough to want to have access to to these materials, that they could get access. That seemed like a good technical problem to work on.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_012",
+      "speaker": "Ian Milligan",
+      "text": "Yeah, which is an ambitious Plan B! And so I know around this time that you, you start working with Danny Hillis and then Thinking Machines. And one thing before I ask you about that, I'm curious... And I'm curious what your thoughts on this is that you and Danny Hillis are working at Thinking Machines. And then later, Hillis ends up as part of the Long Now Foundation. You're working on the Internet Archive. You know, it just seems like sort of complimentary aims, and I'm just curious...",
+      "make_clip": false
+    },
+    {
+      "id": "seg_013",
+      "speaker": "Brewster Kahle",
+      "text": "Yeah, well, then Danny is one of my two mentors. There's Danny Hillis and Bill Dunn. Bill Dunn is interesting. He invented the term metadata, you know, anyway. Yeah. He said the metadata is more important than the data itself. This was the mid-80s. This is like this guy is way, way ahead! Completely awesome. But Danny. Yeah, I learned so much from Danny and I worked I just tried to make Danny's ideas go real. So, yeah, he helped me every step of the way.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_014",
+      "speaker": "Ian Milligan",
+      "text": "And had you been exposed to any history at MIT? Like, did this interest come from a technology background or was there a...",
+      "make_clip": false
+    },
+    {
+      "id": "seg_015",
+      "speaker": "Brewster Kahle",
+      "text": "I think it's technology, really. If you're going to build a new publishing system, we knew back in 1980 -- remember, there wasn't a Macintosh yet. There was an Apple II, right? The IBM PC was new then. There was the ARPANET, which was basically barely working. There were still mainframes, mostly doing accounting and trajectories of missiles. But we knew a new generation of publishing was coming, of how people communicated with each other. There's the Memex, a vision by Vannevar Bush. There's Ted Nelson's Xanadu, and hypertext systems. We were starting to use screens rather than printouts with little dots down the edges. So that was starting to happen.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_016",
+      "speaker": "Brewster Kahle",
+      "text": "We knew this was coming and then, well, how do you go and do a really good system for this? How do you make it work? And so there's steps along the way, had conversations, if I want to name drop a little bit, with Stephen Wolfram and with Richard Feynman... And we talked about how much information is there? And so it's not sort of out the OK, if you had the... Encyclopedia Britannica, had a little index that had a micropedia then a macropedia and how many more steps before you get everything in the Library of Congress? And it just turned out to not be that big! But, you know, this was a time when we were building a supercomputer that had 32 MB of RAM, really. And we were building the biggest disk system. It was the size of a of a of a bar. Right? Of a drinking bar. That was the first RAID system. And it had five gigabytes in it, right? So this is the the high end, multimillion dollar supercomputer of the mid 1980s. But we knew that it was going on a particular curve. So we just stood out the curve and said, all right, when will this be doable? And it was, you know, decade, a couple of decades. But it was, you know, three decades. And we would be all the technology would be there!",
+      "make_clip": false
+    },
+    {
+      "id": "seg_017",
+      "speaker": "Ian Milligan",
+      "text": "And this is at Thinking Machines, then?",
+      "make_clip": false
+    },
+    {
+      "id": "seg_018",
+      "speaker": "Brewster Kahle",
+      "text": "So this is this is all I left MIT to help build a supercomputer and then use that supercomputer to help do searching... of data, because I figured you wanted to it. We were trying to build smart machines, thinking machines. Danny's motto was, we want to build a machine that's proud of us. All right. And how do you how do you bring up the next generation, right? If humans are one generation and computers are the next, how do you bring up... You want to make the computers interesting to talk to and teach and then they want you want them to be useful to you so that there's ongoing back and forth. So we needed to all be done with human language. So we needed to be able to ask the computer questions in English, in natural language. And it wasn't voice at that point. We didn't know how to do that, but we could type. And so it wasn't, you know, these queries. It was... So we did the first sort of free form text database and Dow Jones bought it. And that's where I met Bill Dunn.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_019",
+      "speaker": "Ian Milligan",
+      "text": "OK. And so this is the WAIS system that you start at Thinking Machines, and then it gets spun off as a separate company, right?",
+      "make_clip": false
+    },
+    {
+      "id": "seg_020",
+      "speaker": "Brewster Kahle",
+      "text": "Yes. Starts at Thinking Machines and we work with... What we did, the search system. And then Dow Jones bought it. And then I found that the world didn't turn, you know, didn't... The sun didn't come up with different color. I mean, it was like, OK, what are we missing? And I said, we need personal, corporate and wide area information all woven into the same system. We needed to be able to be asked for by expensive people without delegating. Right? It wasn't a \"call your librarian or your assistant to do it for you.\" It was, you know, we wanted... So we did a system that we prototyped with KPMG Pete Marwick. So 100 $400 dollars an hour people, Dow Jones for the wide area information, we indexed all of their corporate stuff that we could and made it so you could search your own personal email. All in the same system, so you can ask your email, your corporate in the wide information, all in one smooth system. It was called WAIS, wide area information servers. So that was a joint project with Dow Jones, Thinking Machines, KPMG Pete Marwick and Apple Computer.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_022",
+      "speaker": "Brewster Kahle",
+      "text": "And that was started in 1989. And I spun that off as a company in 1992, but in 1991 we made a freeware release and that's what started going viral on this new thing called the Internet. And so it came out... my claim to fame there was that it came out before the web, you know. Yeah. Web was being used internally and since 1989, but hadn't sort of rolled out and it was sort of in the era of Gopher. And so there are a bunch of these systems and they all kind of rolled into the hypertext of the web, the search of WAIS, the multi-stop thing of Gopher all got rolled up into Mosaic and the web was the front end to all of these other systems. And so that happened sort of the early 90s, but the key thing for me was to get publishers on board. So we got Dow Jones, New York Times. Encyclopedia Britannica, Scholastic, CMP a tech Publisher, we got all these publishers to invest in this open Internet thing, which was really early to try to anchor an open world as opposed to the closed world of AOL or Lexis|Nexis.",
+      "make_clip": true,
+      "clip_title": "Before There Was a Web"
+    },
+    {
+      "id": "seg_023",
+      "speaker": "Ian Milligan",
+      "text": "Yes.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_024",
+      "speaker": "Brewster Kahle",
+      "text": "And I needed open protocols to work so WAIS had Z39.50 at the core of it. There is a web, [which] was a much simpler HTTP system. And... we started doing well because we really needed to get this open world, what we didn't get at that time was [a] business model beyond advertising. We did the first advertising based websites at WAIS Incorporated. To just try to anchor the Open Web. So one of the cool things was that AOL had a business model where they shared revenue. So they made six dollars an hour and about 10 or 15 percent of that went to publishers that kept you online. So they had a royalty model. And I like royalties... you know how books work. And I would prefer it to advertising based systems. But at the time I sold WAIS to AOL, which was to try to get all that to work, to get them to scale that business model. They changed their business model to where they actually charge publishers to get to their eyeballs. And that was, so that's fundamentally an advertising-based gimmick. And so that didn't work very well for me, for AOL. I mean, and it's still not working very well for the Internet business model. It's plagued with problems, which is why we're seeing democracy undermined based on advertising business.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_025",
+      "speaker": "Ian Milligan",
+      "text": "Yeah, and I know...",
+      "make_clip": false
+    },
+    {
+      "id": "seg_025a",
+      "speaker": "Ian Milligan",
+      "text": "Right, right.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_026",
+      "speaker": "Brewster Kahle",
+      "text": "So Fox News, you know, all all these sorts of problems. Right? And we know about those. So we have some work to do.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_027",
+      "speaker": "Ian Milligan",
+      "text": "Yeah. No. And it's been there for a long time. So we're at Thinking Machines to WAIS to then AOL. And I've sort of seen in magazine interviews and things I've been reading about... The first time I've seen mentioned this. And I'm curious what you think is was while, you're at AOL, I start to see mention of something called the \"Library of Alexandria Foundation,\" just just sort of once or twice I've seen in some of the media. And so maybe you could speak a bit on that, on that. And how does this Library of Alexandria idea might have been percolating around at this time?",
+      "make_clip": false
+    },
+    {
+      "id": "seg_028",
+      "speaker": "Brewster Kahle",
+      "text": "Sure. I mean, you know, once you have publishing going, actually, let's take it back to Richard Feynman and then the conversations then? We just said, why don't we just buy a library and just, you know, cut off the bindings and poof - digitize? Right. And and the other thing, we could do that... but it doesn't have an ongoing system working. So I invested in trying to get the publishing system online and to get a business model for them so, you know, those guys would do their their thing, then we could build the library. So once we could get the publishers on board, then the whole idea was to try to go and build the library.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_029",
+      "speaker": "Brewster Kahle",
+      "text": "And so when I left AOL in 1995, I said, \"OK, you know, now we have publishing going well enough.\" We didn't have the business models worked out, because we screwed up on that, but we did have... we got a critical mass of publishers' when... Microsoft in 1995 was working on a thing called \"Blackbird,\" which was a competitor to AOL, and they changed direction and they swivelled their turret... their cannon towards Netscape and in the summer of 1995. And when that happened, it was like, \"OK, good, the web, you know, if you have the most monopolistic, powerful tech company trying to kill the World Wide Web. The World Wide Web has made it!\" [Laughs] So and so. That.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_030",
+      "speaker": "Brewster Kahle",
+      "text": "I thought I could then move to doing the library, so that... we formed Alexa Internet. Short for the Library of Alexandria. And the Internet Archive on the same day in April of 1996 and wrote a contract into the soul of Alexa Internet: it would donate everything, all the data collected to the Internet Archive. And the names are a little different exactly then, it's shifted around a little bit, but but but that structure is basically what happened.",
+      "make_clip": true,
+      "clip_title": "Two Companies, One Contract"
+    },
+    {
+      "id": "seg_031",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_032",
+      "speaker": "Brewster Kahle",
+      "text": "And interestingly for starting in 1996, through the end of 2020, Alexa Internet every day donated data to the Internet Archive.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_033",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_034",
+      "speaker": "Brewster Kahle",
+      "text": "And the only reason why it doesn't have to anymore is the Internet Archive is kind of up and running on its own, and it's using the data that the Internet Archive is helping build! So it's so it made it through the start-up phase and the acquisition and Interesting conversation with Jeff Bezos. And high integrity on the part of Amazon, because Alexa Internet didn't have a business model that worked. I mean, it had a toolbar that basically helped try to understand where people were moving around on the net to go and help people who like this website, like that website. And we were the first at scale [for] what became called collaborative filtering. And it's famous by the people who bought this one, bought that one. Right. So Amazon used that idea that technology... it was really, that idea came from Karl Feynman, son of Richard Feynman.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_035",
+      "speaker": "Brewster Kahle",
+      "text": "And and then he did it as his PhD or master's project. And then Firefly by Patti Moss, spun off out of MIT, was sort of the first of the of the real commercial uses of collaborative filtering. For me, I was going back to Bill Dunn, who said the metadata is more important than the data itself. So you're going to learn more about the Web by looking at how it's used than you are by reading the Web pages.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_036",
+      "speaker": "Ian Milligan",
+      "text": "Yes.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_037",
+      "speaker": "Brewster Kahle",
+      "text": "And I needed a... We needed the World Wide Web to win. And I thought that the search engines were only going to get so good that they were going to have real troubles unless they had a lot of usage information. And I was right... but wrong that it wasn't going to be done based on a toolbar, it was going to be based on how Google did it, which was looking at PageRank and anchor text. And they also track what people clicked. So they had a lot of visibility and that's how they made a Web search system that worked so well. It wasn't what AltaVista did with Inktomi, which was to fundamentally use the terms on the Web pages to answer your questions.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_038",
+      "speaker": "Ian Milligan",
+      "text": "Yeah, yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_039",
+      "speaker": "Brewster Kahle",
+      "text": "It was a part of it for Google, but it's a small part [laughs] of the ranking.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_040",
+      "speaker": "Ian Milligan",
+      "text": "Yeah. So it's April 1996, the Internet Archive, Alexa Internet are formed. One thing I found neat is I've be looking at other Web archives and, you know, the first sort of web archiving event I'd sort of see in the United States is at the Smithsonian in March 1996. Where you're there, you're there in spirit at the Smithsonian. You launched this election 1996 archive. And I find that is... do you remember that at all? That was done in partnership with Internet Archive before it was formed, I think?",
+      "make_clip": false
+    },
+    {
+      "id": "seg_041",
+      "speaker": "Brewster Kahle",
+      "text": "Yeah. Yeah was it March? Interesting. So yeah. Maybe we hadn't incorporated yet. So I wanted to crawl the World Wide Web and all... My lawyer friend just said, you know, \"they're going to kill you right there. You know, you can't you know, they're not going to let you live. They will they will run you down, strangle you and, you know, bury you in a shallow grave. Their lawyers are going to rain on you like frogs.\"",
+      "make_clip": true,
+      "clip_title": "Rain on You Like Frogs"
+    },
+    {
+      "id": "seg_042",
+      "speaker": "Brewster Kahle",
+      "text": "And so I said no, \"but it's a library!\" And so we went to my friends at the Library of Congress because I've been working with them since early 90s and they weren't ready for it. They they... But the Smithsonian! And it was really it's always a person. Right. So it's David Allison at the Smithsonian, he was in charge of the American Museum, the Smithsonian Museum of American History. And they had a room of presidential memorabilia. And he said, you know, this Internet might become something. So the first websites might be like the first bumper stickers! And so, to his credit, to you know, basically I was still working, you know, in my house, right in an attic with, you know, a little tape robot, you know, in the garage. Right.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_043",
+      "speaker": "Brewster Kahle",
+      "text": "And and we proposed with them to go and archive this 1996 presidential election Web sites and because I'd worked on the 1992 presidential election... But anyway, so but and they said \"great!\" And they gave us a piece of paper with the with the with the sunburst [logo] on it saying, yes, we're doing it with them.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_044",
+      "speaker": "Brewster Kahle",
+      "text": "And they knew exactly why we needed that piece of paper!",
+      "make_clip": false
+    },
+    {
+      "id": "seg_045",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_046",
+      "speaker": "Brewster Kahle",
+      "text": "And and they did it... And they we did this project, we handed it off and they put a computer on the table next to the first bumper stickers, you know, in Rutherford B. Hayes's buttons, you know, and anyway. And that was a display. And the Smithsonian.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_047",
+      "speaker": "Ian Milligan",
+      "text": "Ok. Yeah, I have seen that... I've seen the templated letterhead that went out to various parties saying we're going to archive your website, here's some details about it. So that's that's great.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_048",
+      "speaker": "Brewster Kahle",
+      "text": "So we we archive these things. And by 2000, the Library of Congress was ready. But this was still before the Wayback Machine existed.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_049",
+      "speaker": "Ian Milligan",
+      "text": "Yeah, yeah. I'll come back, because - cool - I've read some interesting stuff about that and the Library of Congress. But before we get to that, I might... Could you speak just a little bit about that process of setting up the Internet Archive and Alexa Internet? The infrastructure, the location, the early employees, like how how you build these two companies at the same time? I mean, you had money, but I don't imagine it was limitless amounts of money to do such an ambitious thing?",
+      "make_clip": false
+    },
+    {
+      "id": "seg_050",
+      "speaker": "Brewster Kahle",
+      "text": "Oh, no, no, no, no. But I had some money because we'd sold the company to AOL and I didn't know how to run a nonprofit. I knew how to do a for-profit. So I knew how to sell things to people. But I didn't know how to beg for money. And I still don't know how to beg for money. It's really not good at that. So really, Alexa Internet was the thing that employed people. And so we did it as a company. If there's one thing you know about companies, is they're not going to last, right? Companies self-destruct or they get acquired or they just, you know, they flub it. Right. Just so you know, companies are, I think... Of money and for profit companies like gasoline and just, you know, fire and it just goes WHOOSH. It is like and that's that!",
+      "make_clip": false
+    },
+    {
+      "id": "seg_051",
+      "speaker": "Brewster Kahle",
+      "text": "But if you want something that lasts, build a non-profit, which is I really learned from my wife who is working and doing museums, and she was a print historian. And so a lot of my wife weaves all the way through, of course, my story and so we incorporate both of these at the same time, but the people worked for the for- profit. And and we got a little bit of investment from me and then Bill Dunn and then Danny Hillis helped arrange a significant investment. As a for profit startup.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_052",
+      "speaker": "Brewster Kahle",
+      "text": "And the idea was to build, to collect the web and then go in and help people navigate the Web by this collaborative filtering that would show you information about the website you're looking at. Cataloging the web, fundamentally it's cataloging the web. It was the Library of Alexandria. It was about going and saying, where are you and where do you want to go next? And it was a toolbar that just automatically updated, giving you information about where you are. And it would go and say, you know, are you in the way out back or are you like in some place central? Have people go in and commented that this place that this article is his hoo-hah? Right. It's all in context and all of that information that librarians understand and I understood by being a library tradition. I never got my full degree, but I did that. I guess I should go back to that in the 80s.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_053",
+      "speaker": "Brewster Kahle",
+      "text": "But anyway, so what? We wanted to build a catalog of the Web and help people navigate it so that it would be there for people past the search engines and try to help you kind of know are you being lied to (which wouldn't it be great if that were more easy now?). But anyway, there's just some things to accomplish that that I think were good ideas. [pause] OK, so, um, yeah, so we we had a little bit of startup money. Oh and we put it in the Presidio of San Francisco! So this was \"the impossible to do.\" I learned this from Thinking Machines that you should work in someplace interesting and beautiful. Because if you're working in Suite 201 in some anonymous office park, you will start thinking like Suite 201 in some anonymous office park, you will just start thinking generically. Thinking Machines was in a Victorian mansion in the middle of the woods. So we would go and it's just fabulous. And when I was in college, I was in Richardson Mansion, which is top architects, beautiful mansion in Boston. And so when we started WAIS, we started in a mansion in Menlo Park, not in an office [park].",
+      "make_clip": false
+    },
+    {
+      "id": "seg_054",
+      "speaker": "Brewster Kahle",
+      "text": "And when we started the Internet Archive, we were the second... we started in the Presidio by basically using a conference room at the Tides Foundation. And then from there we got our own little building where the second leaseholder in this new national park that had just been converted from being an office right in the center of San Francisco. It's completely beautiful.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_055",
+      "speaker": "Brewster Kahle",
+      "text": "So that that gave us a home that was special and so people could really understand they're trying to do something, you know, big, right? The National Park, you know, they... you know, you don't get into the National Parks where you get to rent a place in a National Park and this is, you know, so, you know, the brim, the hat... Smokey the Bear was our landlord! And, you know, he said, well, you know, we want to we want to build the Library of Alexandria version two. We want to archive! We want to basically build a library of everything ever published.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_056",
+      "speaker": "Brewster Kahle",
+      "text": "And the guy's answer, Arnie Rossie, said, \"well, you're either crazy or you're on to something. Either way, you're one of us.\"",
+      "make_clip": true,
+      "clip_title": "Either Way, You're One of Us"
+    },
+    {
+      "id": "seg_057",
+      "speaker": "Ian Milligan",
+      "text": "Yeah, that's great.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_058",
+      "speaker": "Brewster Kahle",
+      "text": "And so that he said \"welcome aboard.\" And so we rented a place there and that we got we rented more and more buildings in the Presidio. And so we kind of needed our own. And then we bought a former church!",
+      "make_clip": false
+    },
+    {
+      "id": "seg_059",
+      "speaker": "Ian Milligan",
+      "text": "And yeah, and sort of so Alexa hires the people, Alexa's the business. And, does the Internet Archive like own the tape machines? I've heard descriptions in the reading I've done like, these like jukeboxes in this Presidio office...",
+      "make_clip": false
+    },
+    {
+      "id": "seg_060",
+      "speaker": "Brewster Kahle",
+      "text": "Oh, you know, we've got the pictures so cool, right? Because disk drives were really expensive. You know, these are these are a time when you had a nine gigabyte hard drives that were, you know, super expensive.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_061",
+      "speaker": "Brewster Kahle",
+      "text": "And so the only way to really a cost effectively store gigabytes of data was on tapes. But if you had tapes, then they stack up and you can't access them. So there are these tape robots and [laughs] there were these miracle machines, right! They pull this tape out and go rrrrr, then you put it in and then go and then spin it up and three minutes later, they would seek the right place and you get your webpage back. It's like, wow! Really slow. But it did work. And we broke the tape machine just constantly. I mean, our joke was that the repair guy from Storage Tech, we should issue him an employee badge into our little house in the Presidio. I mean, this is a tiny little house, right? This is a couple of thousand square foot house in the prairie- house. And it had this tape robot in it that went rrrrr. But because we used it all the time, it just broke all the time.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_062",
+      "speaker": "Brewster Kahle",
+      "text": "So eventually we try to by 1999, we moved to hard drives. And but hard drives were still really expensive, and so there's there's a problem, I apologize. Our images that we collected from around the year to 1999, 2000, 2001, where we're lower. We tried to make sure we could keep up with the HTML, but the images are largely missing from that era.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_063",
+      "speaker": "Ian Milligan",
+      "text": "Well, that makes sense from my own use! I've wondered about that too, that's....",
+      "make_clip": false
+    },
+    {
+      "id": "seg_064",
+      "speaker": "Brewster Kahle",
+      "text": "Sorry.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_065",
+      "speaker": "Ian Milligan",
+      "text": "No, that's the transition! I'll come back to that shortly because I'm curious about that access transition as well. But so this is like 1996, 1997. And there's other... What I'm curious about is the role of national libraries, so you're setting this up in the Presidio... but then I'd be curious, because elsewhere around the world, we're seeing people kind of do the same thing as you. So Canada has a small pilot in '94. It doesn't really go anywhere. But then Australia and Sweden... in 1996 they start doing...",
+      "make_clip": false
+    },
+    {
+      "id": "seg_066",
+      "speaker": "Brewster Kahle",
+      "text": "The Swedish guys visited us in our little house in the Presidio. And they were they were moving along, we really wanted to. I just wanted to work with the Library Congress, so I asked Winston Tabb, who's just fabulous, he was the Deputy Librarian of Congress. And I said when I was starting in 1996, I said, \"Winston, why don't we just be the digital wing of the Library of Congress? You're not doing anything really ... [mumbles theatrically], so why don't we just be your digital wing?\"",
+      "make_clip": false
+    },
+    {
+      "id": "seg_067",
+      "speaker": "Brewster Kahle",
+      "text": "And he said something to me that was just another one of those lines that has stuck with me forever. He said. \"Brewster...\" he's very diplomatic, \"good idea, good idea. But don't do it too soon, it will only hold you back.\"",
+      "make_clip": true,
+      "clip_title": "Don't Do It Too Soon"
+    },
+    {
+      "id": "seg_068",
+      "speaker": "Brewster Kahle",
+      "text": "And it was so what that turned into was a relationship where we could do things they couldn't do or they didn't feel that they could do, but they gave us kind of an umbrella.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_069",
+      "speaker": "Brewster Kahle",
+      "text": "Right, and so they had plausible deniability, so if we got shot up then, you know, they wouldn't get dragged into the lawsuits or whatever, but we also kind of leverage their patina. And it was I wouldn't do things that they wouldn't that they said don't do. But I I could do things that were a step ahead of where they thought they could be. Like archiving the presidential election websites in 96, or we cooperated in 2000 where we couldn't... We did the website, the election websites of 2000 with their funding. Good. But then making a Wayback Machine was a step beyond where they thought I could go. And when we launched that in October, 24th of 2001, they knew of it. They were nervous.",
+      "make_clip": true,
+      "clip_title": "October 24, 2001"
+    },
+    {
+      "id": "seg_070",
+      "speaker": "Ian Milligan",
+      "text": "Yes.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_071",
+      "speaker": "Brewster Kahle",
+      "text": "[Laughs] And we launched it at the Bancroft Library with Larry Lessig and the head of the journalism school and the head of the Bancroft Library. You know, the walls and the ancient things. I mean, the Bancroft Library, University of California, Berkeley is a beautiful environment, right? And Berkeley knew exactly what they were doing by going and giving this new upstart idea that kind of a venue for launching the Wayback Machine.",
+      "make_clip": true,
+      "clip_title": "Launching at the Bancroft Library"
+    },
+    {
+      "id": "seg_072",
+      "speaker": "Ian Milligan",
+      "text": "Yeah. Yeah, so that's a great relationship with the LC was sort of even before the official stuff starts in 2000, that was percolating..",
+      "make_clip": false
+    },
+    {
+      "id": "seg_073",
+      "speaker": "Brewster Kahle",
+      "text": "I started working with them in 1992.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_074",
+      "speaker": "Ian Milligan",
+      "text": "OK.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_075",
+      "speaker": "Brewster Kahle",
+      "text": "They funded work on the WAIS program. I was keen for me to keep the Library of Congress involved.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_076",
+      "speaker": "Ian Milligan",
+      "text": "And and you mentioned the Swedes, so like, did Sweden come up with their idea... because, they're the big starter National Library grabbing, you know, they try to grab all of their Swedish domain. Did they come up with that on their own? Had they been talking to you? Is this, are these sort of birds of a feather or was there some communication?",
+      "make_clip": false
+    },
+    {
+      "id": "seg_077",
+      "speaker": "Brewster Kahle",
+      "text": "I don't know. You'll have to ask them.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_078",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_079",
+      "speaker": "Brewster Kahle",
+      "text": "I mean, I think the first real pronouncement of this publicly was in an American, Scientific American article...",
+      "make_clip": false
+    },
+    {
+      "id": "seg_080",
+      "speaker": "Ian Milligan",
+      "text": "By Jeff Rothenberg?",
+      "make_clip": false
+    },
+    {
+      "id": "seg_081",
+      "speaker": "Brewster Kahle",
+      "text": "Probably. I can get it for you.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_082",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_083",
+      "speaker": "Brewster Kahle",
+      "text": "And there was a bunch when we were starting out in 96, people just thought we were crazy. They either thought we were crazy or it's worthless.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_084",
+      "speaker": "Ian Milligan",
+      "text": "Yes. And you know, sort of been, you know the reactions that I've been reading and I've been curious about the community. And there's two cool events I've seen come up, that both of which you were involved in. One called Documenting the Digital Age, which was a conference I think, held in San Francisco, which like Vint Cerf and MCI ran it, some historians. And then there was one at the Getty, I think the next year. 98, Times and Bits.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_085",
+      "speaker": "Brewster Kahle",
+      "text": "Yes.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_086",
+      "speaker": "Ian Milligan",
+      "text": "Which both of those events sort of struck me as, you know, big web archiving outliers. That we don't actually really see these big comings of minds on these topics for for a few years after that. So do you have any memory of those events?",
+      "make_clip": false
+    },
+    {
+      "id": "seg_087",
+      "speaker": "Brewster Kahle",
+      "text": "Absolutely. Oh, yeah, yeah. So I pulled... Yes. And that era there was some interesting gatherings, when we're just starting the the. Internet Archive and had the tape robot and we'd, you know, show people that you could actually archive this stuff because I had a real aha moment. By going and seeing AltaVista. In 19... Late, 1995, when AltaVista got popular, launched, I went and visited, it was down in Palo Alto. And to go and see these tapes ro- these hard drives, these big cabinets full of hard drives. It was only the size of two Coke machines, and it was like, that's the whole Web and it was it was 30 million pages. And 30 million pages, just seemed like just a lot and that you can go and archive it all. So I tried to work with them and asked them for a donation of it, and they said they couldn't because the way their deal with Web sites was that they were they were gathering it to index it, not to have it, and they didn't even keep it.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_088",
+      "speaker": "Brewster Kahle",
+      "text": "So. That was kind of a... Because I spent years trying to make a decentralized system work, right, that was what WAIS and the World Wide Web was to try to make it so that it wasn't an AOL or a LexisNexis. And then... But once I could get the publishing structure decentralized, then the idea of building centralized archives because of the the... The web was just so broken. I mean, it's such a simple system, but it boy, it really didn't have any of the features that I put into WAIS towards making it work as a library, and [laughs] with having things live in multiple places and, you know, all the redundancy and structures that I put in place in WAIS, were not in the Web! Now, the web work and, you know, WAIS went by the wayside. So, you know, don't be too complicated here. But I had to fix it by going and trying to gather it all back up again, which was really kind of a kluge and... So anyway, that was that was the Internet Archive. So then there's trying to people didn't think you should do this, right? So the and there's privacy issues. So that's why I made it a nonprofit. It was very important to me that it was non-profit because of, you know, knowledge is power and power corrupts. So, you know, collecting knowledge is going to corrupt you. Right. That's just the way. And we see it over and over again, whether it's the NSA or Google or Facebook or whatever. Right? So make it so that there's a more transparent system.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_089",
+      "speaker": "Brewster Kahle",
+      "text": "So Time and Bits. Yeah, that was at the Getty. That was the Long Now guys. And. They were trying to figure this all out, and I had to project kind of in my pocket that really came from conversations with Karl Feynman of of, you know, if you wanted to go do really long term storage, right? If you wanted to last through the next dark age. What? So it's a this is a fun puzzle that I highly recommend.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_090",
+      "speaker": "Brewster Kahle",
+      "text": "You do three questions. If you want to go and save something for a long, long time is: what do you put? What do you save? How do you save it? And where do you put it? [pause]",
+      "make_clip": false
+    },
+    {
+      "id": "seg_091",
+      "speaker": "Brewster Kahle",
+      "text": "And so I had had conversations with Carl Feynman and we'd come up with, well, you could either use chip technology to go and make chips with really, really small print, or you could make like a gold foil and punch holes in it. And roll it up, right? So, so fundamentally a scroll..",
+      "make_clip": false
+    },
+    {
+      "id": "seg_092",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_093",
+      "speaker": "Brewster Kahle",
+      "text": "And the technology of photo lithography and chips. Made it so that that was the way to go, so I gave that project and they attribute it to me, and they made the Rosetta project. And I have one of my favorite little things as an orb. So, you know, so, you know, they've been they really ran with it. It's completely great. So that's Time and Bits, what came out of that. But the conversation was was in this, you know, Danny was talking about a \"digital dark age.\"",
+      "make_clip": false
+    },
+    {
+      "id": "seg_094",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_095",
+      "speaker": "Brewster Kahle",
+      "text": "At that in that conference and he's sort of right and sort of wrong and in an interesting way. And also there's this concept of dark archives, which I think is one of the worst ideas ever. So a lot of that sort of thinking, I helped try to be a part of, spur, you know, get people together to think about, to contextualize why you would want a Web archive. I mean, people were kind of coming at me, saying \"you're going to get killed,\" right? So I basically tried to get my friends together to go and say, \"no, no, no, we should we should do this.\" It's the same kind of thing I'm doing now with the decentralized web. I mean, people are just saying \"you're going to get killed.\" Yeah, I know the status quo. People are going to protect their business models and they're going to throw, you know, lawyers and government at you and blah, blah, blah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_096",
+      "speaker": "Ian Milligan",
+      "text": "Yeah. Yeah. And so did you worry about a digital dark age? Like, were you, is this something that's preoccupied you? A worry that we're going to lose all this information?",
+      "make_clip": false
+    },
+    {
+      "id": "seg_097",
+      "speaker": "Brewster Kahle",
+      "text": "Every day.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_098",
+      "speaker": "Ian Milligan",
+      "text": "OK.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_099",
+      "speaker": "Brewster Kahle",
+      "text": "Every day. But it's been interesting to see how other people's idea of what the threat vectors are. So how... you know, where is how is it going to happen? And it's changed over time. And in so of other people's way of viewing the problem... I would say I was always ahead of it. And da da da. But but it's interesting to see what other people's you know, what part of the elephant of the preservation problem they see. And whether it's the hard drives or \"the hard drives are going to be the problem,\" you know, or is it going to be institutional instability, right? Is, you know, is... but, large part, it's corporations and the you know, the biggest problem I see is corporations, the rise of corporations, which is just this viral disease that has really hit the world really since World War Two. I mean, there were corporations before that. But, you know, they were things like the Rockefeller, you know, things and, you know, Dutch East India Company, those those turned out well, maybe for the investors! But it... Or the Hudson Bay Company, let's let's go a little more Canadian here. It's yeah, [laughs] so anyway, that's corporations. And and then there's you know, they grow so strong that the governments start working for the corporations.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_100",
+      "speaker": "Brewster Kahle",
+      "text": "So here, here's a digital dark age thing. I heard a rumor of a book. Right, for years, there's a book about the future of libraries. And this book, as best I can tell, was written for me. When I finally found it \u2013 25 years after I joined this darn field \u2013 but I, I never got this book right? I was in the library field. I was, you know, why didn't I ever get this book called The Future of Libraries? It was written in 1964 by Licklider. And Licklider was just one of the unsung gods of the whole 20th century technology world. You know, he he was behind the ARPANET. He was like almost every interesting thing that happened, certainly in the United States, technology. But since the United States did so well out of World War Two, it was sort of so dominant. But also Marvin Minsky and Edwin Land, the founder of Polaroid. Marv... Who else wrote? It was just a who's who of the unbelievable brainiacs of that time? So I finally found this book maybe 10 years ago and I started reading it and I was like, wow, sure, OK. dah dah dah. Started out in 64. And. I said, OK, I should scan this and put it online because, you know, it's important. So I looked at the the... \"MIT Press, 1964,\" way, way, way out of print. Right.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_101",
+      "speaker": "Brewster Kahle",
+      "text": "So I write to MIT Press and say, \"hey, can I digitize this and put this online.\" Right? And they said, \"oh, hi, Brewster.\" Like, \"shoot, they know who I am.\" [laughs] So they said. \"Probably OK. Let me check I'll get back to you tomorrow.\" They write back the next day, \"uh, we can't quite figure it out. How about next week?\" And write next week, and they say \"um, we're having real trouble figuring this thing out,\" and I said, look, \"would you mind if I did it, right? Don't give me permission, but will you get mad at me if I do it, right? If it turns out to be a problem, I'll take it down.\" They said, OK, so I digitized it and I put it up on the net. Great book. I searched for the word copyright in it. Right? My whole world. I thought this was a technical problem. This isn't a technical problem. All of this is about corporations and the governments that work for them. That's what this whole project is about. And the only appeared in the in the place once. And it was on the copyright page next to MIT Press.",
+      "make_clip": true,
+      "clip_title": "The Only Place the Word Copyright Appeared"
+    },
+    {
+      "id": "seg_102",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_103",
+      "speaker": "Brewster Kahle",
+      "text": "So this is 1964 for the best and brightest, most unbelievable people, right, the people that put men on the moon, right and right. Just like unfrikkin' believable people. How could they have been so wrong?",
+      "make_clip": false
+    },
+    {
+      "id": "seg_104",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_105",
+      "speaker": "Brewster Kahle",
+      "text": "And. The problem was, is they weren't wrong at the time. The big problem .... [some Zoom interference] In 1976 is the copyright law, and it turned copyright from opt in to opt out. And it's the stupidest, worst future destroying, library destroying thing the United States has done since, I don't know, blowing up Hiroshima or something. I mean, just like really, really bad news and by making everything expressed copyrighted and subject to monopoly restrictions, everything, you know we're not just talking about, you know, getting some more Disney films, whatever? It's everything.",
+      "make_clip": true,
+      "clip_title": "The Stupidest Thing Since Hiroshima"
+    },
+    {
+      "id": "seg_106",
+      "speaker": "Brewster Kahle",
+      "text": "It took a little while to blow up and the first thing that blew up was computer software. Which was written in common, so the Lisp machine, which is a great operating system, you wouldn't believe the world we would have now [Zoom interference] if the Lisp machine was copyrighted? You know, if everything's copyrighted, MIT said, well, it's copyrighted by us and that means it's owned by us, therefore we can sell it.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_107",
+      "speaker": "Brewster Kahle",
+      "text": "They sold it to Symbolics, and it was an operating system that really amazing people, including Richard Stallman, were working on and they sold and they forked the code and it and Stallmann just started writing the public version as fast as he could to try to keep up with this large corporation, because he could see what's going to happen. The fork was going to go off. The company was going to lose it. Right. Just blow up because, you know, corporations are just you know, they're they're not very smart automatons. And they they went off and forked it off, developed it for a while and then went down and brought the Lisp machine down with it.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_108",
+      "speaker": "Ian Milligan",
+      "text": "Yes.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_109",
+      "speaker": "Brewster Kahle",
+      "text": "And Stallmann was basically trying to keep up the public version, but he was like like the dot O'Henry, er, John Henry trying to battle the corporation, which is the steam locomotive by himself. You almost killed him! And he said, OK, we're going to lose Lisp machine. Let's start with a real problem, here is the copyright problem, and he came up with a really weird, wonderful idea, which was the GNU public license, and he started open source software and he dedicated his life to it. And we were working together. This is all at the MIT AI lab, right? This is all these all the same people. I know Richard Stallman well. And so I helped him along and I kind of understood, but he turned out to be completely right. The problem was copyright. And and it was basically the 76 Copyright Act, which is just malfeasance on the part of corporations causing the government to do the wrong thing. So the biggest problem of the whole digital dark age is corporations and the governments that work for them.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_110",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_111",
+      "speaker": "Brewster Kahle",
+      "text": "That's the leading cause from my perspective. We can solve the keeping things going, you know, and copying forward. We know all of that, but the corporations are out of control powerful.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_112",
+      "speaker": "Ian Milligan",
+      "text": "Yeah, which...",
+      "make_clip": false
+    },
+    {
+      "id": "seg_113",
+      "speaker": "Brewster Kahle",
+      "text": "That's all since World War Two, I mean, there were corporations before, but, you know, nothing like what's happened, you know, and that's and I would say if the corporations, especially the American style, C Corp. Right? That sort of public corporations and those things are the disease. The only real antidote that I've seen is the public charity non-profit.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_114",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_115",
+      "speaker": "Brewster Kahle",
+      "text": "That has a different form of governance and transparency and a sharing ethos. It's not always right. You can do bad things with the non-profits. You can waste money like anywhere else. But the non-profit is the only sort of antidote I see to this problem.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_116",
+      "speaker": "Ian Milligan",
+      "text": "Yeah. And this brings... it's funny, one question I wanted to ask you, and I'm conscious of time and I want to make sure we cover it is, you know, the Internet archive eventually begins to expand beyond just the web. It gets into digitizing books and things like that. And there's a there's a whole thing that's the Eldred case and the Internet bookmobile. And it... I just you know, how does how do you and the Internet Archive get involved in this, you know, cross-country adventure to to really challenge at the Supreme Court, copyright? And I now, from what you just said, of seeing that the tight integration, obviously, to that sort of core mission of the Internet Archive and averting the...",
+      "make_clip": true,
+      "clip_title": "Taking Copyright to the Supreme Court"
+    },
+    {
+      "id": "seg_117",
+      "speaker": "Brewster Kahle",
+      "text": "Oh yeah, we started archiving books, digitizing books with the Million Books project, which is really worth. So that's turning 20 years old now. It's a very interesting project. Raj Reddy. And Larry Lessig, blessed Larry Lessig came to our field and he started writing code and these really important forum, the Creative Commons. And then there was the Eldred case. And I'd always wanted to build to do this bookmobile. And and I said, OK. And I think it was in three weeks there was... We're going to argue he was going to argue in front of the Supreme Court. I said, OK, I can do that. So in two weeks time, we we built a bookmobile. There was just an enormous outpouring. HP gave us the very newest, like prototype printers.",
+      "make_clip": true,
+      "clip_title": "The Bookmobile, Built in Two Weeks"
+    },
+    {
+      "id": "seg_118",
+      "speaker": "Brewster Kahle",
+      "text": "Right. And we got all this stuff, you know, put together, Lisa Rhein did this, Lauren Gelman of Stanford did these scheduling of of where we were going to make up a press tour, basically going across and we pop out our tent and pull out. And the bookmobile says \"a million books inside... Soon.\" Free, print your own book. And so my favorite stop was in on the in front of the steps of the Carnegie Library in Pittsburgh, Pennsylvania, where we could get our photo shot. And, you know, and they agreed to do this and they knew why we wanted them. Right? We were all, you know, and above the the door there, it says \"Free to the People.\" Right? Andrew Carnegie, right? You know, Andrew Carnegie is one of the most ferocious capitalists, but libraries are special.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_119",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_120",
+      "speaker": "Brewster Kahle",
+      "text": "Free to the people, right? Can you imagine even a Democrat in the United States saying that, you know, it's like, oh, oh, socialism! Like this is coming from Andrew Carnegie over the door in the Boston Public Library. It should be in your book. You should just have these pictures of these these mottos. It says \"free to all.\" Free to all. I mean, it's just.",
+      "make_clip": true,
+      "clip_title": "Free to the People"
+    },
+    {
+      "id": "seg_121",
+      "speaker": "Brewster Kahle",
+      "text": "And so we drove across and we made books in front of the Library of Congress celebrating the public domain because they're crushing the public domain. This is a time when when a very effective person, Jack Valenti, also hideously evil, but very, very smart marketer. And he just said, you know, public domain means nobody's going to take care of it. Right. Because capitalists, of course, are the only people that actually do anything. And and he said, you know, so let's you know, there shouldn't be any public domain! Or there's the Sonny Bono copyright extension. The you know, the famous line is copyright should last one day short of forever.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_122",
+      "speaker": "Ian Milligan",
+      "text": "Yes. [00:54:11] That was Mary, Mary Bono, her famous quotation. So, no, we had real problems in D.C. So the Internet Archive was always trying to build what needed to be defended by the, you know, unbelievable people like EFF and Larry Lessig and public knowledge and... We wanted to be a home for the Commons. If people wanted to share, it shouldn't cost you to share. Giving away information shouldn't cost you money. If you're a band, right, and you want to give something away, it shouldn't cost you. In the United States, you give something to the public, like to a charity or to make something public. Not only do you, you know, get a pat on the back, you get a tax deduction, except on the Internet. If you make something available for free on the Internet and it gets really popular, it can cost... you know, you can lose your house over ISP bills. Right, so we wanted to make a home for the Commons, so if you wanted to give things away, we'll provide a space for forever. And that was sort of part of the deal of the Internet Archive, not just digitizing books, but archiving music, making it available. It was part of the vision of the Internet that I needed to have happen.",
+      "make_clip": true,
+      "clip_title": "A Home for the Commons"
+    },
+    {
+      "id": "seg_123",
+      "speaker": "Ian Milligan",
+      "text": "Yeah, yeah. Which which...",
+      "make_clip": false
+    },
+    {
+      "id": "seg_124",
+      "speaker": "Brewster Kahle",
+      "text": "All these are pieces...of I'm I'm pretty simple. I'm a simple guy, and I've only had one goal the whole darn time. And but there are a lot of other pieces that I had to get. I had to get publishing going, you know, and I'm not I didn't invent all of this stuff. I just hope for my part I did I did some of the pushing.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_125",
+      "speaker": "Ian Milligan",
+      "text": "Yeah.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_126",
+      "speaker": "Brewster Kahle",
+      "text": "And so now we've got the Internet Archive going, but we need it in multiple places. We need an international library system. We need a decentralized web because the web was kind of a kluge at the time. And so we there's a there's still things to go off and do! And Ian, your interest in this is just fabulous. Let's try to get your book to have all sorts of other people's voices. Let's try to have those voices get amplified, not just by being in a book that is going to have three hundred copies that we're going to be seen for life plus 70 and... I you know, if I can be other help or more help in any other way, gosh let me know.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_127",
+      "speaker": "Ian Milligan",
+      "text": "Yeah, that sounds great. Yeah, because I see our time's up. My last ,I mean, is there anyone else you'd really recommend, like a burning drive that you need to talk to?",
+      "make_clip": false
+    },
+    {
+      "id": "seg_128",
+      "speaker": "Brewster Kahle",
+      "text": "One last... actually I recommend: you. I suggest that I, you know, built a lot of this to try to build a thinking machine. I needed to make something that was smart enough, that was interesting enough to bring up if we're going to go and bring up our new overlord, like, you know, I think of it as Aristotle teaching Alexander the Great. Right? So Alexander the Great is the machine. And it's diseased based on corporations, but I think we can go and hopefully we can get beyond some of those bad structures, but.",
+      "make_clip": true,
+      "clip_title": "Teaching the New Overlord"
+    },
+    {
+      "id": "seg_129",
+      "speaker": "Brewster Kahle",
+      "text": "But digital humanities, you know, being and making it so you can do all sorts of interesting things by having the aggregated collection, that's when interesting things happen! That's why Alexandria, you ended up with Euclid's elements you had. It's not Euclid came and wrote it there and was like, no, it's because it was all there! It was all there. And you could use it and learn from and build on it. And if that happens, great things happen. That's the whole point of this damn thing. And right now, the Internet Archive is best known for the Wayback Machine, which is kind of the \"hello world\" of what you do with a with an archive. It is a pretty simple, dopy system. So let's do the next generation. The point is you and your generation... going and being able to do this within the open sphere so you don't have to go and go and join Google to get access to data.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_130",
+      "speaker": "Brewster Kahle",
+      "text": "Right? You know, Karl Marx famously would sit in the in the British Library to go and think and make the next generation idea of Communist Manifesto. How do we go and make libraries so that you can be a graduate student with an idea without having to sell your soul to some V.C. or, you know, sign a non- disclosure agreement with some hideous publisher.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_131",
+      "speaker": "Brewster Kahle",
+      "text": "And so so you can actually come up with new ideas to build the next generation. That's where we are now. That's the next step. And you're forefront of that.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_132",
+      "speaker": "Ian Milligan",
+      "text": "Yeah... hey.... That's exciting, but that's probably a great way to end our interview. [chuckles] Excellent.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_133",
+      "speaker": "Brewster Kahle",
+      "text": "In terms of other people for a history of the stuff... I'd say history of the Internet. Marc Weber at the Computer History Museum is a good person to ask. Winston Tabb. Bill Dunn. These are people that won't be on your normal list, Bill Dunn started the Dow Jones Electronics. He invented the word metadata. He is unfrikking believable and he's always behind the scenes. OK, I've got another meeting...",
+      "make_clip": false
+    },
+    {
+      "id": "seg_134",
+      "speaker": "Ian Milligan",
+      "text": "Excellent!",
+      "make_clip": false
+    },
+    {
+      "id": "seg_135",
+      "speaker": "Brewster Kahle",
+      "text": "But I am so available to you and Ian, I really want to work with you and your kind. What I want to make it so that you and your kind are really successful using the Internet Archive and helping build the Internet Archive Canada.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_136",
+      "speaker": "Ian Milligan",
+      "text": "Great. Well, I'm always here, too, so if I can ever anything comes up, just let me know and vice versa.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_137",
+      "speaker": "Brewster Kahle",
+      "text": "Thanks, Ian. Please take the recording and send it back to me or post it on the Archive.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_138",
+      "speaker": "Ian Milligan",
+      "text": "Yes, will do. I'll be in touch.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_139",
+      "speaker": "Brewster Kahle",
+      "text": "Thank you, bye bye.",
+      "make_clip": false
+    },
+    {
+      "id": "seg_140",
+      "speaker": "Ian Milligan",
+      "text": "Brewster, thanks again.",
+      "make_clip": false
+    }
+  ]
+}

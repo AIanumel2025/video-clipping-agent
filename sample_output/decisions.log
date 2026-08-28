@@ -1,0 +1,438 @@
+
+======================================================================
+Run at: 2026-08-16T22:07:07.906574+00:00
+Old transcript: brewster_kahle_transcript_flagged.json
+New transcript: brewster_kahle_transcript_flagged_v2.json
+Summary: {'REUSE': 14, 'PATCH': 1, 'VERIFY_SHIFT': 124, 'REMOVE': 1, 'NEW': 1}
+
+======================================================================
+Run at: 2026-08-16T23:02:11.252872+00:00
+Old transcript: brewster_kahle_transcript_flagged.json
+New transcript: brewster_kahle_transcript_flagged_v2.json
+Summary: {'REUSE': 14, 'PATCH': 1, 'VERIFY_SHIFT': 124, 'REMOVE': 1, 'NEW': 1}
+Final cumulative delta: -13.89s
+======================================================================
+
+Decision: REUSE        seg_001  [23.83s - 25.29s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_002  [25.65s - 25.95s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_003  [26.67s - 28.20s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_004  [28.70s - 44.31s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_005  [46.10s - 48.56s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_006  [48.98s - 53.91s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_007  [54.95s - 58.87s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_008  [60.51s - 71.12s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_009  [73.25s - 75.95s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_010  [75.99s - 151.20s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_011  [152.36s - 168.56s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_012  [170.76s - 198.85s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_013  [199.05s - 228.27s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: REUSE        seg_014  [230.79s - 236.44s]
+Reason:   unchanged text, no upstream edits before it
+
+Decision: PATCH        seg_015  [238.77s - 281.13s]
+Reason:   reworded (similarity 0.880), mock duration change -14.87s (MOCKED -- pending real windowed re-alignment)
+
+Decision: VERIFY_SHIFT seg_016  [284.81s - 395.99s]
+Reason:   unchanged text, but shifted by -14.87s from upstream edits
+
+Decision: VERIFY_SHIFT seg_017  [400.15s - 401.11s]
+Reason:   unchanged text, but shifted by -14.87s from upstream edits
+
+Decision: VERIFY_SHIFT seg_018  [401.73s - 474.96s]
+Reason:   unchanged text, but shifted by -14.87s from upstream edits
+
+Decision: VERIFY_SHIFT seg_019  [474.98s - 481.44s]
+Reason:   unchanged text, but shifted by -14.87s from upstream edits
+
+Decision: VERIFY_SHIFT seg_020  [481.48s - 550.26s]
+Reason:   unchanged text, but shifted by -14.87s from upstream edits
+
+Decision: REMOVE       seg_021  
+Reason:   segment deleted, removes 0.10s from the timeline
+
+Decision: VERIFY_SHIFT seg_022  [551.26s - 640.84s]
+Reason:   unchanged text, but shifted by -14.97s from upstream edits
+
+Decision: VERIFY_SHIFT seg_023  [640.90s - 641.10s]
+Reason:   unchanged text, but shifted by -14.97s from upstream edits
+
+Decision: VERIFY_SHIFT seg_024  [642.42s - 740.73s]
+Reason:   unchanged text, but shifted by -14.97s from upstream edits
+
+Decision: VERIFY_SHIFT seg_025  [740.77s - 741.45s]
+Reason:   unchanged text, but shifted by -14.97s from upstream edits
+
+Decision: NEW          seg_025a  [741.75s - 742.53s]
+Reason:   no prior timestamp exists, mock duration 0.78s (MOCKED -- pending real alignment)
+
+Decision: VERIFY_SHIFT seg_026  [742.55s - 752.74s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_027  [752.76s - 785.81s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_028  [785.83s - 832.66s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_029  [832.78s - 904.00s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_030  [904.04s - 949.56s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_031  [951.30s - 951.60s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_032  [951.66s - 963.09s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_033  [963.19s - 963.47s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_034  [963.51s - 1024.73s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_035  [1024.77s - 1057.51s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_036  [1057.53s - 1057.61s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_037  [1057.69s - 1102.00s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_038  [1102.02s - 1102.24s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_039  [1102.28s - 1110.34s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_040  [1110.38s - 1144.12s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_041  [1144.16s - 1173.49s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_042  [1173.53s - 1233.97s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_043  [1234.01s - 1261.05s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_044  [1261.07s - 1266.40s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_045  [1266.72s - 1266.98s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_046  [1267.42s - 1285.90s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_047  [1285.92s - 1297.08s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_048  [1297.78s - 1307.41s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_049  [1307.45s - 1333.79s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_050  [1333.83s - 1389.24s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_051  [1389.92s - 1434.99s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_052  [1435.11s - 1489.03s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_053  [1489.31s - 1576.43s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_054  [1577.03s - 1602.07s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_055  [1602.65s - 1635.32s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_056  [1635.34s - 1647.00s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_057  [1647.04s - 1647.86s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_058  [1648.53s - 1664.09s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_059  [1664.19s - 1675.58s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_060  [1676.30s - 1690.47s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_061  [1690.53s - 1752.87s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_062  [1752.91s - 1781.01s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_063  [1781.12s - 1786.53s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_064  [1786.57s - 1786.69s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_065  [1786.71s - 1815.26s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_066  [1815.32s - 1850.22s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_067  [1850.26s - 1874.04s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_068  [1874.08s - 1889.36s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_069  [1889.40s - 1952.76s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_070  [1952.82s - 1952.96s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_071  [1953.54s - 1982.35s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_072  [1982.37s - 1991.69s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_073  [1993.03s - 1997.03s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_074  [1997.07s - 1997.55s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_075  [1998.77s - 2006.27s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_076  [2006.75s - 2023.07s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_077  [2023.15s - 2025.54s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_078  [2025.92s - 2026.18s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_079  [2026.28s - 2041.03s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_080  [2041.05s - 2043.71s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_081  [2043.77s - 2045.32s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_082  [2045.50s - 2045.64s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_083  [2046.06s - 2056.77s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_084  [2056.81s - 2081.16s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_085  [2081.24s - 2081.34s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_086  [2081.38s - 2098.64s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_087  [2098.90s - 2179.23s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_088  [2179.27s - 2268.30s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_089  [2268.32s - 2299.40s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_090  [2299.46s - 2317.91s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_091  [2318.41s - 2346.74s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_092  [2346.78s - 2346.86s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_093  [2346.88s - 2374.91s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_094  [2374.97s - 2375.17s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_095  [2375.19s - 2437.57s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_096  [2437.61s - 2453.73s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_097  [2453.79s - 2454.13s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_098  [2454.35s - 2454.57s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_099  [2454.67s - 2562.65s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_100  [2562.69s - 2664.85s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_101  [2664.91s - 2739.57s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_102  [2739.81s - 2740.05s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_103  [2740.15s - 2753.64s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_104  [2753.66s - 2753.78s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_105  [2753.82s - 2813.65s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_106  [2813.69s - 2846.68s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_107  [2846.74s - 2886.95s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_108  [2887.03s - 2887.39s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_109  [2887.45s - 2962.01s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_110  [2962.17s - 2962.71s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_111  [2962.77s - 2977.49s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_112  [2977.51s - 2978.01s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_113  [2978.07s - 3008.02s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_114  [3009.10s - 3011.98s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_115  [3012.20s - 3030.58s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_116  [3030.60s - 3068.17s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_117  [3068.21s - 3118.03s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_118  [3118.07s - 3179.67s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_119  [3179.73s - 3179.77s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_120  [3179.83s - 3205.07s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_121  [3205.13s - 3242.71s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_122  [3243.47s - 3329.91s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_123  [3330.02s - 3330.92s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_124  [3330.98s - 3349.41s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_125  [3349.43s - 3349.55s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_126  [3349.57s - 3395.11s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_127  [3395.17s - 3405.03s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_128  [3405.55s - 3445.50s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_129  [3445.52s - 3494.60s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_130  [3494.72s - 3516.10s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_131  [3516.24s - 3527.95s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_132  [3527.97s - 3534.82s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_133  [3534.86s - 3571.78s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_134  [3571.82s - 3571.88s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_135  [3571.94s - 3584.91s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_136  [3585.60s - 3590.92s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_137  [3590.96s - 3595.53s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_138  [3595.57s - 3596.51s]
+Reason:   unchanged text, but shifted by -13.89s from upstream edits
+
+Decision: VERIFY_SHIFT seg_139  
+Reason:   unchanged text, but Stage 1 never resolved a timestamp for it -- needs fresh alignment, not a shift
+
+Decision: VERIFY_SHIFT seg_140  
+Reason:   unchanged text, but Stage 1 never resolved a timestamp for it -- needs fresh alignment, not a shift
+

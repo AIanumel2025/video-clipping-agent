@@ -1,0 +1,1022 @@
+{
+  "video_id": "brewster_kahle_interview",
+  "transcript_hash": "5e510fd6b0093fc5",
+  "segments": {
+    "seg_001": {
+      "text_hash": "567fbea302c4d37e",
+      "start": 23.831,
+      "end": 25.292,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_002": {
+      "text_hash": "b129df1b5a0d59d3",
+      "start": 25.653,
+      "end": 25.949,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_003": {
+      "text_hash": "8582b46b377fe448",
+      "start": 26.674,
+      "end": 28.195,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_004": {
+      "text_hash": "0a6af658d7d3f389",
+      "start": 28.695,
+      "end": 44.309,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_005": {
+      "text_hash": "afdd4df38c3e8c0d",
+      "start": 46.102,
+      "end": 48.564,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_006": {
+      "text_hash": "79507287f818937a",
+      "start": 48.984,
+      "end": 53.907,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_007": {
+      "text_hash": "76aaf5885dbdaa35",
+      "start": 54.947,
+      "end": 58.87,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_008": {
+      "text_hash": "8e03c1286150fa39",
+      "start": 60.511,
+      "end": 71.117,
+      "confidence": "aligned",
+      "make_clip": true
+    },
+    "seg_009": {
+      "text_hash": "85cd46875f010109",
+      "start": 73.252,
+      "end": 75.953,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_010": {
+      "text_hash": "87e6b37eccf72ce1",
+      "start": 75.993,
+      "end": 151.201,
+      "confidence": "aligned",
+      "make_clip": true
+    },
+    "seg_011": {
+      "text_hash": "245cf621455cd1f8",
+      "start": 152.361,
+      "end": 168.563,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_012": {
+      "text_hash": "f69db86f7a8b862e",
+      "start": 170.764,
+      "end": 198.849,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_013": {
+      "text_hash": "ec9ba71adf64013e",
+      "start": 199.049,
+      "end": 228.272,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_014": {
+      "text_hash": "7220b34641e0292c",
+      "start": 230.793,
+      "end": 236.435,
+      "confidence": "aligned",
+      "make_clip": false
+    },
+    "seg_015": {
+      "text_hash": "df7fded9854a75e1",
+      "start": 238.774,
+      "end": 281.129,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_016": {
+      "text_hash": "1eb1dfa07b905e25",
+      "start": 284.811,
+      "end": 395.99,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_017": {
+      "text_hash": "effab3db2cae788a",
+      "start": 400.146,
+      "end": 401.106,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_018": {
+      "text_hash": "74e3020fb7cf6985",
+      "start": 401.727,
+      "end": 474.957,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_019": {
+      "text_hash": "5ad09a8e863fab63",
+      "start": 474.977,
+      "end": 481.436,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_020": {
+      "text_hash": "22ceefc7bbdb1b4a",
+      "start": 481.476,
+      "end": 550.264,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_022": {
+      "text_hash": "01d4014667f4bad6",
+      "start": 551.264,
+      "end": 640.839,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_023": {
+      "text_hash": "5f9a2b795615ba6a",
+      "start": 640.899,
+      "end": 641.099,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_024": {
+      "text_hash": "b51012bbbca0a71f",
+      "start": 642.419,
+      "end": 740.731,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_025": {
+      "text_hash": "deb9f3d89ab19eb8",
+      "start": 740.771,
+      "end": 741.452,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_025a": {
+      "text_hash": "85e063597ef90b3e",
+      "start": 741.752,
+      "end": 742.532,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_026": {
+      "text_hash": "ff6e25f2e53f6784",
+      "start": 742.552,
+      "end": 752.743,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_027": {
+      "text_hash": "69fbb63ed9ed575e",
+      "start": 752.763,
+      "end": 785.811,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_028": {
+      "text_hash": "dc0c5eae35ef2e1f",
+      "start": 785.832,
+      "end": 832.665,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_029": {
+      "text_hash": "0f85e67542059053",
+      "start": 832.785,
+      "end": 904.003,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_030": {
+      "text_hash": "94515806aa2fa5d5",
+      "start": 904.043,
+      "end": 949.561,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_031": {
+      "text_hash": "85fec70372b092bb",
+      "start": 951.303,
+      "end": 951.603,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_032": {
+      "text_hash": "b77f7241364aaf94",
+      "start": 951.663,
+      "end": 963.087,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_033": {
+      "text_hash": "85fec70372b092bb",
+      "start": 963.187,
+      "end": 963.467,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_034": {
+      "text_hash": "4b6fdd52906c6ca3",
+      "start": 963.507,
+      "end": 1024.731,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_035": {
+      "text_hash": "551d71f8de881b04",
+      "start": 1024.771,
+      "end": 1057.509,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_036": {
+      "text_hash": "5f9a2b795615ba6a",
+      "start": 1057.529,
+      "end": 1057.609,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_037": {
+      "text_hash": "0b96f841a81f48b6",
+      "start": 1057.689,
+      "end": 1102.0,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_038": {
+      "text_hash": "85c9830b7dd1348f",
+      "start": 1102.02,
+      "end": 1102.241,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_039": {
+      "text_hash": "8854ba6459db05fe",
+      "start": 1102.281,
+      "end": 1110.34,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_040": {
+      "text_hash": "61bae56aac120b98",
+      "start": 1110.38,
+      "end": 1144.115,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_041": {
+      "text_hash": "a985a72f7bf1ffa1",
+      "start": 1144.155,
+      "end": 1173.492,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_042": {
+      "text_hash": "42762ebffc784b3c",
+      "start": 1173.532,
+      "end": 1233.97,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_043": {
+      "text_hash": "508143c5167d9ef5",
+      "start": 1234.01,
+      "end": 1261.046,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_044": {
+      "text_hash": "7f8e1370a4c55116",
+      "start": 1261.066,
+      "end": 1266.4,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_045": {
+      "text_hash": "85fec70372b092bb",
+      "start": 1266.72,
+      "end": 1266.98,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_046": {
+      "text_hash": "78458424209327dc",
+      "start": 1267.42,
+      "end": 1285.896,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_047": {
+      "text_hash": "893a1cbc42d6f3ae",
+      "start": 1285.916,
+      "end": 1297.079,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_048": {
+      "text_hash": "24842211bbaadae5",
+      "start": 1297.78,
+      "end": 1307.408,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_049": {
+      "text_hash": "1aa094578b75a63a",
+      "start": 1307.448,
+      "end": 1333.791,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_050": {
+      "text_hash": "a750097a960c8a98",
+      "start": 1333.831,
+      "end": 1389.235,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_051": {
+      "text_hash": "701c9dadd6f0a7f4",
+      "start": 1389.916,
+      "end": 1434.986,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_052": {
+      "text_hash": "d54a33b1020bbf96",
+      "start": 1435.106,
+      "end": 1489.029,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_053": {
+      "text_hash": "b9ea515ca3700fe5",
+      "start": 1489.309,
+      "end": 1576.431,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_054": {
+      "text_hash": "d028a67eda2b8db2",
+      "start": 1577.031,
+      "end": 1602.069,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_055": {
+      "text_hash": "54612d5fc661a516",
+      "start": 1602.65,
+      "end": 1635.319,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_056": {
+      "text_hash": "b8dd8e319502af7d",
+      "start": 1635.339,
+      "end": 1647.002,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_057": {
+      "text_hash": "19a0e71613baf4fb",
+      "start": 1647.042,
+      "end": 1647.864,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_058": {
+      "text_hash": "aac78b4e681178c7",
+      "start": 1648.525,
+      "end": 1664.088,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_059": {
+      "text_hash": "fe8163a8e282f06d",
+      "start": 1664.188,
+      "end": 1675.583,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_060": {
+      "text_hash": "a0c30d80cff1cb54",
+      "start": 1676.304,
+      "end": 1690.473,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_061": {
+      "text_hash": "9b74a690c5fce00b",
+      "start": 1690.533,
+      "end": 1752.87,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_062": {
+      "text_hash": "79d51527ecdda025",
+      "start": 1752.91,
+      "end": 1781.014,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_063": {
+      "text_hash": "50d3e00f3565d0e0",
+      "start": 1781.115,
+      "end": 1786.533,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_064": {
+      "text_hash": "9f7d79d9b6a23846",
+      "start": 1786.573,
+      "end": 1786.693,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_065": {
+      "text_hash": "49f1566f8220cf5c",
+      "start": 1786.713,
+      "end": 1815.259,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_066": {
+      "text_hash": "7992433239ecd627",
+      "start": 1815.319,
+      "end": 1850.217,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_067": {
+      "text_hash": "fae74e88166b4e87",
+      "start": 1850.257,
+      "end": 1874.035,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_068": {
+      "text_hash": "62d7ff12359a4e65",
+      "start": 1874.075,
+      "end": 1889.363,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_069": {
+      "text_hash": "a5fafdebc02709d8",
+      "start": 1889.403,
+      "end": 1952.756,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_070": {
+      "text_hash": "5f9a2b795615ba6a",
+      "start": 1952.816,
+      "end": 1952.956,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_071": {
+      "text_hash": "1ef827f771cbebfd",
+      "start": 1953.536,
+      "end": 1982.352,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_072": {
+      "text_hash": "210f47ff8a0bddb9",
+      "start": 1982.372,
+      "end": 1991.694,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_073": {
+      "text_hash": "b671d8c762ca5f5e",
+      "start": 1993.026,
+      "end": 1997.029,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_074": {
+      "text_hash": "b814aabdde112d89",
+      "start": 1997.069,
+      "end": 1997.55,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_075": {
+      "text_hash": "d4b3b7c46a189de9",
+      "start": 1998.774,
+      "end": 2006.265,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_076": {
+      "text_hash": "ce820745e5a1b7f4",
+      "start": 2006.745,
+      "end": 2023.072,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_077": {
+      "text_hash": "ede5f9960550a1f7",
+      "start": 2023.153,
+      "end": 2025.537,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_078": {
+      "text_hash": "85fec70372b092bb",
+      "start": 2025.918,
+      "end": 2026.178,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_079": {
+      "text_hash": "fd99d8985d6fb33f",
+      "start": 2026.278,
+      "end": 2041.032,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_080": {
+      "text_hash": "6e3e7346ea7aa0a7",
+      "start": 2041.052,
+      "end": 2043.714,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_081": {
+      "text_hash": "4736b5ddd40292a8",
+      "start": 2043.774,
+      "end": 2045.316,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_082": {
+      "text_hash": "85fec70372b092bb",
+      "start": 2045.496,
+      "end": 2045.636,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_083": {
+      "text_hash": "a0c109a03ec8645d",
+      "start": 2046.057,
+      "end": 2056.765,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_084": {
+      "text_hash": "0b43a426e6f6f813",
+      "start": 2056.805,
+      "end": 2081.162,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_085": {
+      "text_hash": "5f9a2b795615ba6a",
+      "start": 2081.242,
+      "end": 2081.343,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_086": {
+      "text_hash": "9aec59f3f5b3c636",
+      "start": 2081.383,
+      "end": 2098.644,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_087": {
+      "text_hash": "49f76f39bcf2e4e7",
+      "start": 2098.904,
+      "end": 2179.231,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_088": {
+      "text_hash": "d3eb0282df10c34b",
+      "start": 2179.271,
+      "end": 2268.304,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_089": {
+      "text_hash": "c330608444b9c43b",
+      "start": 2268.324,
+      "end": 2299.396,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_090": {
+      "text_hash": "b78b2775def3866a",
+      "start": 2299.457,
+      "end": 2317.906,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_091": {
+      "text_hash": "23f14d616743d2f2",
+      "start": 2318.406,
+      "end": 2346.735,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_092": {
+      "text_hash": "85fec70372b092bb",
+      "start": 2346.775,
+      "end": 2346.855,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_093": {
+      "text_hash": "3cac960d5e2d3dc1",
+      "start": 2346.875,
+      "end": 2374.908,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_094": {
+      "text_hash": "85fec70372b092bb",
+      "start": 2374.968,
+      "end": 2375.168,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_095": {
+      "text_hash": "457aee38ee23b413",
+      "start": 2375.188,
+      "end": 2437.571,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_096": {
+      "text_hash": "83b6f90ef9ea1fdb",
+      "start": 2437.611,
+      "end": 2453.73,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_097": {
+      "text_hash": "4d95e41f2953f8ef",
+      "start": 2453.79,
+      "end": 2454.13,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_098": {
+      "text_hash": "b814aabdde112d89",
+      "start": 2454.35,
+      "end": 2454.57,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_099": {
+      "text_hash": "b8a91b8f72b8b45e",
+      "start": 2454.67,
+      "end": 2562.646,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_100": {
+      "text_hash": "15f99f0948be53f8",
+      "start": 2562.686,
+      "end": 2664.847,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_101": {
+      "text_hash": "d885e2717a33f71d",
+      "start": 2664.907,
+      "end": 2739.565,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_102": {
+      "text_hash": "85fec70372b092bb",
+      "start": 2739.805,
+      "end": 2740.046,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_103": {
+      "text_hash": "fa620ed8380865a0",
+      "start": 2740.146,
+      "end": 2753.642,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_104": {
+      "text_hash": "85fec70372b092bb",
+      "start": 2753.662,
+      "end": 2753.782,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_105": {
+      "text_hash": "0c0ae8ae3008473a",
+      "start": 2753.822,
+      "end": 2813.651,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_106": {
+      "text_hash": "7862fafba5307ce9",
+      "start": 2813.691,
+      "end": 2846.676,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_107": {
+      "text_hash": "195238e5beba5a09",
+      "start": 2846.736,
+      "end": 2886.954,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_108": {
+      "text_hash": "5f9a2b795615ba6a",
+      "start": 2887.034,
+      "end": 2887.394,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_109": {
+      "text_hash": "07ee0d8e87a07a29",
+      "start": 2887.454,
+      "end": 2962.007,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_110": {
+      "text_hash": "85fec70372b092bb",
+      "start": 2962.167,
+      "end": 2962.707,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_111": {
+      "text_hash": "cb987bc6c21f4916",
+      "start": 2962.767,
+      "end": 2977.493,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_112": {
+      "text_hash": "baea5084cb210592",
+      "start": 2977.513,
+      "end": 2978.014,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_113": {
+      "text_hash": "b6a8a364d0459801",
+      "start": 2978.074,
+      "end": 3008.018,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_114": {
+      "text_hash": "85fec70372b092bb",
+      "start": 3009.1,
+      "end": 3011.983,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_115": {
+      "text_hash": "cdb06f1a990d2ab7",
+      "start": 3012.203,
+      "end": 3030.579,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_116": {
+      "text_hash": "50e3757d5471a388",
+      "start": 3030.599,
+      "end": 3068.173,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_117": {
+      "text_hash": "160584d7921d94cf",
+      "start": 3068.213,
+      "end": 3118.025,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_118": {
+      "text_hash": "28d476035b6b0bfc",
+      "start": 3118.065,
+      "end": 3179.672,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_119": {
+      "text_hash": "85fec70372b092bb",
+      "start": 3179.732,
+      "end": 3179.772,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_120": {
+      "text_hash": "0e84e9741363d0a5",
+      "start": 3179.832,
+      "end": 3205.074,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_121": {
+      "text_hash": "4854e23375d9295b",
+      "start": 3205.134,
+      "end": 3242.712,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_122": {
+      "text_hash": "2e5c81b0dd987167",
+      "start": 3243.472,
+      "end": 3329.915,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_123": {
+      "text_hash": "cccb695d56a457cc",
+      "start": 3330.015,
+      "end": 3330.916,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_124": {
+      "text_hash": "4fa245f8544c1013",
+      "start": 3330.976,
+      "end": 3349.413,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_125": {
+      "text_hash": "85fec70372b092bb",
+      "start": 3349.433,
+      "end": 3349.553,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_126": {
+      "text_hash": "d59fb9a59d2d20ad",
+      "start": 3349.573,
+      "end": 3395.112,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_127": {
+      "text_hash": "696086359fbde1bf",
+      "start": 3395.172,
+      "end": 3405.027,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_128": {
+      "text_hash": "1a13d49028b1dace",
+      "start": 3405.547,
+      "end": 3445.495,
+      "confidence": "run2_resolved",
+      "make_clip": true
+    },
+    "seg_129": {
+      "text_hash": "94570c9831f082d1",
+      "start": 3445.515,
+      "end": 3494.604,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_130": {
+      "text_hash": "fa75c1a25315cd42",
+      "start": 3494.724,
+      "end": 3516.095,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_131": {
+      "text_hash": "018be4707966d30b",
+      "start": 3516.235,
+      "end": 3527.955,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_132": {
+      "text_hash": "d093f4cc960eb1b7",
+      "start": 3527.975,
+      "end": 3534.822,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_133": {
+      "text_hash": "6df1f7a128ca72e1",
+      "start": 3534.862,
+      "end": 3571.779,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_134": {
+      "text_hash": "1e5b9c4d7c7853fa",
+      "start": 3571.819,
+      "end": 3571.879,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_135": {
+      "text_hash": "5b2d28da48d775d8",
+      "start": 3571.939,
+      "end": 3584.915,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_136": {
+      "text_hash": "034240d665a91e0d",
+      "start": 3585.598,
+      "end": 3590.922,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_137": {
+      "text_hash": "1fad41ece44be7a7",
+      "start": 3590.962,
+      "end": 3595.526,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_138": {
+      "text_hash": "ee1f6474f2c99d85",
+      "start": 3595.567,
+      "end": 3596.514,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_139": {
+      "text_hash": "70f3d7a46c9eab8e",
+      "start": null,
+      "end": null,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    },
+    "seg_140": {
+      "text_hash": "b1550c2a8625ce5a",
+      "start": null,
+      "end": null,
+      "confidence": "run2_resolved",
+      "make_clip": false
+    }
+  },
+  "run_history": [
+    {
+      "run_at": "2026-08-16T15:08:35.748266+00:00",
+      "n_segments": 140,
+      "n_clips": 16,
+      "transcript_hash": "a10cd25f2eeaf77c"
+    },
+    {
+      "run_at": "2026-08-16T21:58:30.952451+00:00",
+      "n_segments": 140,
+      "n_clips": 16,
+      "transcript_hash": "a10cd25f2eeaf77c"
+    },
+    {
+      "run_at": "2026-08-16T22:43:17.833402+00:00",
+      "n_segments": 140,
+      "n_clips": 16,
+      "transcript_hash": "a10cd25f2eeaf77c"
+    },
+    {
+      "run_timestamp": "2026-08-16T23:23:26.960318+00:00",
+      "transcript_path": "brewster_kahle_transcript_flagged_v2.json",
+      "diff_summary": {
+        "unchanged": 138,
+        "edited": 1,
+        "deleted": 1,
+        "inserted": 1
+      },
+      "clip_summary": {
+        "reused": 2,
+        "recut": 14,
+        "new": 0,
+        "retired": 0
+      }
+    }
+  ]
+}

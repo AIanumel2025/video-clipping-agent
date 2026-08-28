@@ -1,0 +1,189 @@
+{
+  "video_id": "brewster_kahle_interview",
+  "source_video": "/content/drive/MyDrive/Projects/LEC AI Project/brewster_kahle/Brewster Kahle - Interview - 26 Feb 2021.mp4",
+  "run_timestamp": "2026-08-16T23:23:26.960318+00:00",
+  "clips": [
+    {
+      "clip_id": "clip_001",
+      "filename": "clip_001.mp4",
+      "segment_id": "seg_008",
+      "clip_title": "The Question That Started It All",
+      "start": 60.511,
+      "end": 71.117,
+      "duration": 10.606,
+      "confidence": "aligned",
+      "text": "So Brewster, I thought we might start if we could go way back in time to your time at MIT and, you know, where the origin of your idea of creating a new \"Library of Alexandria\" came from?",
+      "reuse_status": "REUSED",
+      "reason": "text and timestamp both unchanged -- clip_001.mp4 is still valid",
+      "checked_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "clip_id": "clip_002",
+      "filename": "clip_002.mp4",
+      "segment_id": "seg_010",
+      "clip_title": "Plan B: The Library of Alexandria, Version Two",
+      "start": 75.993,
+      "end": 151.201,
+      "duration": 75.208,
+      "confidence": "aligned",
+      "text": "He said \"Brewster, you're an idealist.\" I said, \"yes and a technologist, yes.\" And he said, \"paint a portrait that is better because of the future. That's better because of your technology.\" And this turned out to be extremely hard! So I walked back and forth over the bridge, back and forth from Boston to Cambridge as I walked back and forth to school. And I could only come up with two ideas. And one was too obvious. So I thought other people would do it. So I went for the other one, which was to try to protect people's privacy because people are just going to throw it away. And this is 1980. And so I went off to try to figure out how to make computer chips to go and encrypt people's phone conversations, and I figured that I had to make it so cheap and offer other features other than privacy, because nobody's going to pay for privacy and they're not going to do anything for privacy, they're just going to throw it away. But I found that I couldn't. So after a while of building chips and things, I couldn't figure out how to do it cheaply enough. So I went to Plan B, which was to build the Library of Alexandria version two. How do you make all the published works of humankind available to everybody, forever, for free?",
+      "reuse_status": "REUSED",
+      "reason": "text and timestamp both unchanged -- clip_002.mp4 is still valid",
+      "checked_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_022",
+      "filename": "clip_003.mp4",
+      "start": 551.264,
+      "end": 640.839,
+      "duration": 89.575,
+      "clip_title": "Before There Was a Web",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (566.23-655.81s -> 551.26-640.84s) -- clip_003.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_030",
+      "filename": "clip_004.mp4",
+      "start": 904.043,
+      "end": 949.561,
+      "duration": 45.518,
+      "clip_title": "Two Companies, One Contract",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (917.93-963.45s -> 904.04-949.56s) -- clip_004.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_041",
+      "filename": "clip_005.mp4",
+      "start": 1144.155,
+      "end": 1173.492,
+      "duration": 29.337,
+      "clip_title": "Rain on You Like Frogs",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (1158.05-1187.38s -> 1144.16-1173.49s) -- clip_005.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_056",
+      "filename": "clip_006.mp4",
+      "start": 1635.339,
+      "end": 1647.002,
+      "duration": 11.663,
+      "clip_title": "Either Way, You're One of Us",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (1649.23-1660.89s -> 1635.34-1647.00s) -- clip_006.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_067",
+      "filename": "clip_007.mp4",
+      "start": 1850.257,
+      "end": 1874.035,
+      "duration": 23.778,
+      "clip_title": "Don't Do It Too Soon",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (1864.15-1887.92s -> 1850.26-1874.04s) -- clip_007.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_069",
+      "filename": "clip_008.mp4",
+      "start": 1889.403,
+      "end": 1952.756,
+      "duration": 63.353,
+      "clip_title": "October 24, 2001",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (1903.29-1966.65s -> 1889.40-1952.76s) -- clip_008.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_071",
+      "filename": "clip_009.mp4",
+      "start": 1953.536,
+      "end": 1982.352,
+      "duration": 28.816,
+      "clip_title": "Launching at the Bancroft Library",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (1967.43-1996.24s -> 1953.54-1982.35s) -- clip_009.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_101",
+      "filename": "clip_010.mp4",
+      "start": 2664.907,
+      "end": 2739.565,
+      "duration": 74.658,
+      "clip_title": "The Only Place the Word Copyright Appeared",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (2678.80-2753.45s -> 2664.91-2739.57s) -- clip_010.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_105",
+      "filename": "clip_011.mp4",
+      "start": 2753.822,
+      "end": 2813.651,
+      "duration": 59.829,
+      "clip_title": "The Stupidest Thing Since Hiroshima",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (2767.71-2827.54s -> 2753.82-2813.65s) -- clip_011.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_116",
+      "filename": "clip_012.mp4",
+      "start": 3030.599,
+      "end": 3068.173,
+      "duration": 37.574,
+      "clip_title": "Taking Copyright to the Supreme Court",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (3044.49-3082.06s -> 3030.60-3068.17s) -- clip_012.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_117",
+      "filename": "clip_013.mp4",
+      "start": 3068.213,
+      "end": 3118.025,
+      "duration": 49.812,
+      "clip_title": "The Bookmobile, Built in Two Weeks",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (3082.10-3131.91s -> 3068.21-3118.03s) -- clip_013.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_120",
+      "filename": "clip_014.mp4",
+      "start": 3179.832,
+      "end": 3205.074,
+      "duration": 25.242,
+      "clip_title": "Free to the People",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (3193.72-3218.96s -> 3179.83-3205.07s) -- clip_014.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_122",
+      "filename": "clip_015.mp4",
+      "start": 3243.472,
+      "end": 3329.915,
+      "duration": 86.443,
+      "clip_title": "A Home for the Commons",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (3257.36-3343.80s -> 3243.47-3329.91s) -- clip_015.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    },
+    {
+      "segment_id": "seg_128",
+      "filename": "clip_016.mp4",
+      "start": 3405.547,
+      "end": 3445.495,
+      "duration": 39.948,
+      "clip_title": "Teaching the New Overlord",
+      "reuse_status": "RECUT",
+      "reason": "timestamp moved (3419.44-3459.39s -> 3405.55-3445.50s) -- clip_016.mp4 is stale",
+      "generated_at": "2026-08-16T23:23:26.960318+00:00"
+    }
+  ]
+}

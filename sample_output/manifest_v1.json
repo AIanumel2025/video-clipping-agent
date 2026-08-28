@@ -1,0 +1,183 @@
+{
+  "video_id": "brewster_kahle_interview",
+  "source_video": "/content/drive/MyDrive/Projects/LEC AI Project/brewster_kahle/Brewster Kahle - Interview - 26 Feb 2021.mp4",
+  "generated_at": "2026-08-16T22:43:17.824406+00:00",
+  "clips": [
+    {
+      "clip_id": "clip_001",
+      "filename": "clip_001.mp4",
+      "segment_id": "seg_008",
+      "clip_title": "The Question That Started It All",
+      "start": 60.511,
+      "end": 71.117,
+      "duration": 10.606,
+      "confidence": "aligned",
+      "text": "So Brewster, I thought we might start if we could go way back in time to your time at MIT and, you know, where the origin of your idea of creating a new \"Library of Alexandria\" came from?"
+    },
+    {
+      "clip_id": "clip_002",
+      "filename": "clip_002.mp4",
+      "segment_id": "seg_010",
+      "clip_title": "Plan B: The Library of Alexandria, Version Two",
+      "start": 75.993,
+      "end": 151.201,
+      "duration": 75.208,
+      "confidence": "aligned",
+      "text": "He said \"Brewster, you're an idealist.\" I said, \"yes and a technologist, yes.\" And he said, \"paint a portrait that is better because of the future. That's better because of your technology.\" And this turned out to be extremely hard! So I walked back and forth over the bridge, back and forth from Boston to Cambridge as I walked back and forth to school. And I could only come up with two ideas. And one was too obvious. So I thought other people would do it. So I went for the other one, which was to try to protect people's privacy because people are just going to throw it away. And this is 1980. And so I went off to try to figure out how to make computer chips to go and encrypt people's phone conversations, and I figured that I had to make it so cheap and offer other features other than privacy, because nobody's going to pay for privacy and they're not going to do anything for privacy, they're just going to throw it away. But I found that I couldn't. So after a while of building chips and things, I couldn't figure out how to do it cheaply enough. So I went to Plan B, which was to build the Library of Alexandria version two. How do you make all the published works of humankind available to everybody, forever, for free?"
+    },
+    {
+      "clip_id": "clip_003",
+      "filename": "clip_003.mp4",
+      "segment_id": "seg_022",
+      "clip_title": "Before There Was a Web",
+      "start": 566.234,
+      "end": 655.809,
+      "duration": 89.575,
+      "confidence": "aligned",
+      "text": "And that was started in 1989. And I spun that off as a company in 1992, but in 1991 we made a freeware release and that's what started going viral on this new thing called the Internet. And so it came out... my claim to fame there was that it came out before the web, you know. Yeah. Web was being used internally and since 1989, but hadn't sort of rolled out and it was sort of in the era of Gopher. And so there are a bunch of these systems and they all kind of rolled into the hypertext of the web, the search of WAIS, the multi-stop thing of Gopher all got rolled up into Mosaic and the web was the front end to all of these other systems. And so that happened sort of the early 90s, but the key thing for me was to get publishers on board. So we got Dow Jones, New York Times. Encyclopedia Britannica, Scholastic, CMP a tech Publisher, we got all these publishers to invest in this open Internet thing, which was really early to try to anchor an open world as opposed to the closed world of AOL or Lexis|Nexis."
+    },
+    {
+      "clip_id": "clip_004",
+      "filename": "clip_004.mp4",
+      "segment_id": "seg_030",
+      "clip_title": "Two Companies, One Contract",
+      "start": 917.933,
+      "end": 963.451,
+      "duration": 45.518,
+      "confidence": "aligned",
+      "text": "I thought I could then move to doing the library, so that... we formed Alexa Internet. Short for the Library of Alexandria. And the Internet Archive on the same day in April of 1996 and wrote a contract into the soul of Alexa Internet: it would donate everything, all the data collected to the Internet Archive. And the names are a little different exactly then, it's shifted around a little bit, but but but that structure is basically what happened."
+    },
+    {
+      "clip_id": "clip_005",
+      "filename": "clip_005.mp4",
+      "segment_id": "seg_041",
+      "clip_title": "Rain on You Like Frogs",
+      "start": 1158.045,
+      "end": 1187.382,
+      "duration": 29.337,
+      "confidence": "aligned",
+      "text": "Yeah. Yeah was it March? Interesting. So yeah. Maybe we hadn't incorporated yet. So I wanted to crawl the World Wide Web and all... My lawyer friend just said, you know, \"they're going to kill you right there. You know, you can't you know, they're not going to let you live. They will they will run you down, strangle you and, you know, bury you in a shallow grave. Their lawyers are going to rain on you like frogs.\""
+    },
+    {
+      "clip_id": "clip_006",
+      "filename": "clip_006.mp4",
+      "segment_id": "seg_056",
+      "clip_title": "Either Way, You're One of Us",
+      "start": 1649.229,
+      "end": 1660.892,
+      "duration": 11.663,
+      "confidence": "aligned",
+      "text": "And the guy's answer, Arnie Rossie, said, \"well, you're either crazy or you're on to something. Either way, you're one of us.\""
+    },
+    {
+      "clip_id": "clip_007",
+      "filename": "clip_007.mp4",
+      "segment_id": "seg_067",
+      "clip_title": "Don't Do It Too Soon",
+      "start": 1864.147,
+      "end": 1887.925,
+      "duration": 23.778,
+      "confidence": "aligned",
+      "text": "And he said something to me that was just another one of those lines that has stuck with me forever. He said. \"Brewster...\" he's very diplomatic, \"good idea, good idea. But don't do it too soon, it will only hold you back.\""
+    },
+    {
+      "clip_id": "clip_008",
+      "filename": "clip_008.mp4",
+      "segment_id": "seg_069",
+      "clip_title": "October 24, 2001",
+      "start": 1903.293,
+      "end": 1966.646,
+      "duration": 63.353,
+      "confidence": "aligned",
+      "text": "Right, and so they had plausible deniability, so if we got shot up then, you know, they wouldn't get dragged into the lawsuits or whatever, but we also kind of leverage their patina. And it was I wouldn't do things that they wouldn't that they said don't do. But I I could do things that were a step ahead of where they thought they could be. Like archiving the presidential election websites in 96, or we cooperated in 2000 where we couldn't... We did the website, the election websites of 2000 with their funding. Good. But then making a Wayback Machine was a step beyond where they thought I could go. And when we launched that in October, 24th of 2001, they knew of it. They were nervous."
+    },
+    {
+      "clip_id": "clip_009",
+      "filename": "clip_009.mp4",
+      "segment_id": "seg_071",
+      "clip_title": "Launching at the Bancroft Library",
+      "start": 1967.426,
+      "end": 1996.242,
+      "duration": 28.816,
+      "confidence": "aligned",
+      "text": "[Laughs] And we launched it at the Bancroft Library with Larry Lessig and the head of the journalism school and the head of the Bancroft Library. You know, the walls and the ancient things. I mean, the Bancroft Library, University of California, Berkeley is a beautiful environment, right? And Berkeley knew exactly what they were doing by going and giving this new upstart idea that kind of a venue for launching the Wayback Machine."
+    },
+    {
+      "clip_id": "clip_010",
+      "filename": "clip_010.mp4",
+      "segment_id": "seg_101",
+      "clip_title": "The Only Place the Word Copyright Appeared",
+      "start": 2678.797,
+      "end": 2753.455,
+      "duration": 74.658,
+      "confidence": "aligned",
+      "text": "So I write to MIT Press and say, \"hey, can I digitize this and put this online.\" Right? And they said, \"oh, hi, Brewster.\" Like, \"shoot, they know who I am.\" [laughs] So they said. \"Probably OK. Let me check I'll get back to you tomorrow.\" They write back the next day, \"uh, we can't quite figure it out. How about next week?\" And write next week, and they say \"um, we're having real trouble figuring this thing out,\" and I said, look, \"would you mind if I did it, right? Don't give me permission, but will you get mad at me if I do it, right? If it turns out to be a problem, I'll take it down.\" They said, OK, so I digitized it and I put it up on the net. Great book. I searched for the word copyright in it. Right? My whole world. I thought this was a technical problem. This isn't a technical problem. All of this is about corporations and the governments that work for them. That's what this whole project is about. And the only appeared in the in the place once. And it was on the copyright page next to MIT Press."
+    },
+    {
+      "clip_id": "clip_011",
+      "filename": "clip_011.mp4",
+      "segment_id": "seg_105",
+      "clip_title": "The Stupidest Thing Since Hiroshima",
+      "start": 2767.712,
+      "end": 2827.541,
+      "duration": 59.829,
+      "confidence": "aligned",
+      "text": "And. The problem was, is they weren't wrong at the time. The big problem .... [some Zoom interference] In 1976 is the copyright law, and it turned copyright from opt in to opt out. And it's the stupidest, worst future destroying, library destroying thing the United States has done since, I don't know, blowing up Hiroshima or something. I mean, just like really, really bad news and by making everything expressed copyrighted and subject to monopoly restrictions, everything, you know we're not just talking about, you know, getting some more Disney films, whatever? It's everything."
+    },
+    {
+      "clip_id": "clip_012",
+      "filename": "clip_012.mp4",
+      "segment_id": "seg_116",
+      "clip_title": "Taking Copyright to the Supreme Court",
+      "start": 3044.489,
+      "end": 3082.063,
+      "duration": 37.574,
+      "confidence": "aligned",
+      "text": "Yeah. And this brings... it's funny, one question I wanted to ask you, and I'm conscious of time and I want to make sure we cover it is, you know, the Internet archive eventually begins to expand beyond just the web. It gets into digitizing books and things like that. And there's a there's a whole thing that's the Eldred case and the Internet bookmobile. And it... I just you know, how does how do you and the Internet Archive get involved in this, you know, cross-country adventure to to really challenge at the Supreme Court, copyright? And I now, from what you just said, of seeing that the tight integration, obviously, to that sort of core mission of the Internet Archive and averting the..."
+    },
+    {
+      "clip_id": "clip_013",
+      "filename": "clip_013.mp4",
+      "segment_id": "seg_117",
+      "clip_title": "The Bookmobile, Built in Two Weeks",
+      "start": 3082.103,
+      "end": 3131.915,
+      "duration": 49.812,
+      "confidence": "aligned",
+      "text": "Oh yeah, we started archiving books, digitizing books with the Million Books project, which is really worth. So that's turning 20 years old now. It's a very interesting project. Raj Reddy. And Larry Lessig, blessed Larry Lessig came to our field and he started writing code and these really important forum, the Creative Commons. And then there was the Eldred case. And I'd always wanted to build to do this bookmobile. And and I said, OK. And I think it was in three weeks there was... We're going to argue he was going to argue in front of the Supreme Court. I said, OK, I can do that. So in two weeks time, we we built a bookmobile. There was just an enormous outpouring. HP gave us the very newest, like prototype printers."
+    },
+    {
+      "clip_id": "clip_014",
+      "filename": "clip_014.mp4",
+      "segment_id": "seg_120",
+      "clip_title": "Free to the People",
+      "start": 3193.722,
+      "end": 3218.964,
+      "duration": 25.242,
+      "confidence": "aligned",
+      "text": "Free to the people, right? Can you imagine even a Democrat in the United States saying that, you know, it's like, oh, oh, socialism! Like this is coming from Andrew Carnegie over the door in the Boston Public Library. It should be in your book. You should just have these pictures of these these mottos. It says \"free to all.\" Free to all. I mean, it's just."
+    },
+    {
+      "clip_id": "clip_015",
+      "filename": "clip_015.mp4",
+      "segment_id": "seg_122",
+      "clip_title": "A Home for the Commons",
+      "start": 3257.362,
+      "end": 3343.805,
+      "duration": 86.443,
+      "confidence": "aligned",
+      "text": "Yes. [00:54:11] That was Mary, Mary Bono, her famous quotation. So, no, we had real problems in D.C. So the Internet Archive was always trying to build what needed to be defended by the, you know, unbelievable people like EFF and Larry Lessig and public knowledge and... We wanted to be a home for the Commons. If people wanted to share, it shouldn't cost you to share. Giving away information shouldn't cost you money. If you're a band, right, and you want to give something away, it shouldn't cost you. In the United States, you give something to the public, like to a charity or to make something public. Not only do you, you know, get a pat on the back, you get a tax deduction, except on the Internet. If you make something available for free on the Internet and it gets really popular, it can cost... you know, you can lose your house over ISP bills. Right, so we wanted to make a home for the Commons, so if you wanted to give things away, we'll provide a space for forever. And that was sort of part of the deal of the Internet Archive, not just digitizing books, but archiving music, making it available. It was part of the vision of the Internet that I needed to have happen."
+    },
+    {
+      "clip_id": "clip_016",
+      "filename": "clip_016.mp4",
+      "segment_id": "seg_128",
+      "clip_title": "Teaching the New Overlord",
+      "start": 3419.437,
+      "end": 3459.385,
+      "duration": 39.948,
+      "confidence": "aligned",
+      "text": "One last... actually I recommend: you. I suggest that I, you know, built a lot of this to try to build a thinking machine. I needed to make something that was smart enough, that was interesting enough to bring up if we're going to go and bring up our new overlord, like, you know, I think of it as Aristotle teaching Alexander the Great. Right? So Alexander the Great is the machine. And it's diseased based on corporations, but I think we can go and hopefully we can get beyond some of those bad structures, but."
+    }
+  ]
+}

@@ -1,12 +1,12 @@
-# Incremental Video Transcript Alignment & Clip Extraction
+# A Video Transcript Alignment & Clip Extraction Agent
 
 An agent that takes a video and its transcript and produces correctly-timed
 clips. On a re-run with an edited transcript, it diffs old vs. new, works
 out what actually changed, and only re-processes the segments that need
 it — reusing cached alignment, embeddings, and clip files everywhere else.
 
-The problem this solves: re-cutting an entire video from scratch every
-time a transcript gets a single wording fix doesn't scale. This agent
+The agent automates the solution to the problem of re-cutting an entire video from scratch every
+time a transcript gets a single wording, or a major segment fix. It
 detects what changed and reprocesses only the affected segments.
 
 ## How it's organized
@@ -152,36 +152,57 @@ Notebooks for both runs live in `notebooks/` (see below).
 ## Repo structure
 
 ```
-agent/
-  config.py       path resolution, device detection
-  ingest.py       transcript loading/validation, video resolution
-  locate.py       select segments flagged for clipping
-  align.py        audio extraction, ASR caching, forced alignment
-  attribute.py    word-to-segment re-attribution after alignment
-  verify.py       interactive spot-check and clip verification (Colab/Jupyter only)
-  cutter.py       ffmpeg clip cutting
-  manifest.py     manifest.json writer
-  state.py        hashing, state.json persistence, sanity checks
-  diff.py         Stage 2: classify segments vs. the last commit
-  embeddings.py   disk-cached sentence embeddings
-  decide.py       the decision engine
-  execute.py      executes decisions, propagates timing deltas
-  logger.py       decisions.log writer
-  clip_reuse.py   decides which clip files are still valid
-  commit.py       executes clip decisions, persists the result
-  pipeline.py     orchestrates both pipelines end to end
-notebooks/
-  01_development.ipynb    the original build, phase by phase
-  02_verification.ipynb   real-model verification run (see above)
-scripts/
-  generate_fixtures.py   synthetic test fixture for the smoke test
-tests/
-  ...             see Testing below
+video-clipping-agent/
+├── agent/
+│   ├── __init__.py
+│   ├── __main__.py       CLI shim -- lets this run as `python -m agent`
+│   ├── cli.py             argument parsing for both pipelines
+│   ├── config.py          path resolution, device detection
+│   ├── ingest.py          transcript loading/validation, video resolution
+│   ├── locate.py          select segments flagged for clipping
+│   ├── align.py           audio extraction, ASR caching, forced alignment
+│   ├── attribute.py       word-to-segment re-attribution after alignment
+│   ├── verify.py          interactive spot-check and clip verification (Colab/Jupyter only)
+│   ├── cutter.py          ffmpeg clip cutting
+│   ├── manifest.py        manifest.json writer
+│   ├── state.py           hashing, state.json persistence, sanity checks
+│   ├── diff.py            Stage 2: classify segments vs. the last commit
+│   ├── embeddings.py      disk-cached sentence embeddings
+│   ├── decide.py          the decision engine
+│   ├── execute.py         executes decisions, propagates timing deltas
+│   ├── logger.py          decisions.log writer
+│   ├── clip_reuse.py      decides which clip files are still valid
+│   ├── commit.py          executes clip decisions, persists the result
+│   └── pipeline.py        orchestrates both pipelines end to end
+│
+├── notebooks/
+│   ├── 01_development.ipynb    the original build, phase by phase
+│   └── 02_verification.ipynb   real-model verification run (see above)
+│
+├── sample_input/          example transcript + flagged transcript, committed
+│                          so the schema is visible without running anything
+├── sample_output/         example manifest.json / state.json / decisions.log
+│                          from a real run, for the same reason
+│
+├── scripts/
+│   └── generate_fixtures.py    synthetic test fixture for the smoke test
+│
+├── tests/
+│   └── ...                see Testing below
+│
+├── .dockerignore
+├── .gitignore
+├── Dockerfile
+├── README.md
+├── pytest.ini
+├── requirements.txt
+├── requirements-dev.txt
+└── requirements-docker.lock.txt
 ```
 
-Generated artifacts (`input/`, `output/`, caches, clip files) are not
-committed — see `.gitignore`. No `.mp4` files live in this repo by
-design; a walkthrough video will be linked here once recorded.
+`sample_input/`/`sample_output/` are the one exception to "generated artifacts aren't committed" below — they're deliberately checked in as read-only reference examples, not written to by the pipeline itself.
+
+Generated *runtime* artifacts (`input/`, `output/`, caches, clip files) are still not committed — see `.gitignore`. No `.mp4` files live in this repo by design; a walkthrough video will be linked here once recorded.
 
 ## Testing
 
@@ -214,7 +235,7 @@ pytest -m "not smoke"   # Tier 1 only, for quick iteration
   fallback; there's no cookie-based workaround built in yet.
 - Video walkthrough not yet recorded/published.
 
-## Path to total autonomy (a work in progress)
+## Path to full autonomy (Work in progress)
 
 Everything in this repo assumes a human has already decided which
 segments are clip-worthy — that's what `make_clip` and `clip_title` in
@@ -255,7 +276,3 @@ decides for itself what's worth clipping would need:
    hundreds of segments, too many for one LLM call reliably; needs
    windowing, similar in spirit to how alignment already handles long
    audio.
-
-Items 1–3 are really one product decision — what counts as clip-worthy,
-for whom, at what granularity — more than three separate engineering
-tasks, and are worth settling deliberately before building the rest.

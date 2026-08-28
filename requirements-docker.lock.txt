@@ -1,0 +1,15 @@
+# Exact versions confirmed working end to end, against real audio, in a
+# real GPU run (2026-08-27) -- see the README's "Verified against real
+# content" section. Unlike requirements.txt (which intentionally leaves
+# room for pip to pick a compatible set for local development), this
+# file exists specifically to make Docker builds reproducible: a loose
+# resolution here could, in principle, land on a different combination
+# in the future and reintroduce the numpy/whisperx/pyannote/torchaudio
+# incompatibility discovered and fixed live during that verification run.
+numpy==2.5.2
+torch==2.8.0
+torchaudio==2.8.0
+whisperx==3.8.6
+pyannote-audio==4.0.7
+sentence-transformers==5.7.0
+yt-dlp==2026.8.19

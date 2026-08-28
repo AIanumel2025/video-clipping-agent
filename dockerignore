@@ -1,0 +1,14 @@
+.git
+.gitignore
+.pytest_cache/
+__pycache__/
+*.pyc
+input/
+output/
+notebooks/
+.venv/
+venv/
+tests/
+requirements.txt
+requirements-dev.txt
+README.md

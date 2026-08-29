@@ -150,7 +150,6 @@ running cumulative delta, and by spot-listening to the affected clips
 Notebooks for both runs live in `notebooks/` (see below).
 
 ## Repo structure
-
 ```
 video-clipping-agent/
 ├── agent/
@@ -159,6 +158,8 @@ video-clipping-agent/
 │   ├── cli.py             argument parsing for both pipelines
 │   ├── config.py          path resolution, device detection
 │   ├── ingest.py          transcript loading/validation, video resolution
+│   ├── segment.py         Stage 0: raw transcript -> schema (3 real formats handled)
+│   ├── curate.py          Stage 0.5: LLM-based clip-worthy span selection
 │   ├── locate.py          select segments flagged for clipping
 │   ├── align.py           audio extraction, ASR caching, forced alignment
 │   ├── attribute.py       word-to-segment re-attribution after alignment
@@ -176,8 +177,9 @@ video-clipping-agent/
 │   └── pipeline.py        orchestrates both pipelines end to end
 │
 ├── notebooks/
-│   ├── 01_development.ipynb    the original build, phase by phase
-│   └── 02_verification.ipynb   real-model verification run (see above)
+│   ├── 01_development.ipynb          the original build, phase by phase
+│   ├── 02_verification.ipynb         real-model verification run (see above)
+│   └── 03_curator_verification.ipynb real-API verification of segment.py + curate.py
 │
 ├── sample_input/          example transcript + flagged transcript, committed
 │                          so the schema is visible without running anything
@@ -247,32 +249,16 @@ was said, only what changed. That's deliberate scope, not an oversight.
 Getting to a version that ingests any long-form video and transcript and
 decides for itself what's worth clipping would need:
 
-1. **A transcript segmentation adapter** — for input that isn't already
-   in this repo's schema (raw prose, SRT/VTT, YouTube auto-captions).
-   Could reuse the existing embedding infrastructure: a similarity dip
-   between adjacent sentences is a reasonable topic-boundary signal.
-2. **A curator module** — an LLM pass that reads the transcript and
-   proposes which segments are worth clipping. Nothing in the current
-   backend does content judgment; this is genuinely new capability, not
-   a config change.
-3. **Explicit, configurable selection criteria** — "clip-worthy" isn't
-   fixed. The 16 segments flagged in this project's real run were
-   selected against one specific brief; a different use case needs
-   different judgment, as an actual input, not something implicit in
-   one prompt.
-4. **A decision on clip boundaries** — whether the curator only picks
-   from existing segment boundaries, or can define its own spans that
-   get mapped back onto what alignment already works with.
-5. **A human-review checkpoint before committing** — propose, don't
+1. **A human-review checkpoint before committing** — propose, don't
    auto-commit. In keeping with how this project treats mocked/estimated
    output everywhere else (see "What's real vs. mocked" above), an
    autonomous selection step should be reviewable before it drives real
    clip cutting, not fully unattended.
-6. **Incremental caching for selection itself** — the same content-hash
+2. **Incremental caching for selection itself** — the same content-hash
    caching already used for alignment and embeddings, extended one stage
    earlier, so re-running the curator on an edited transcript doesn't
    re-ask the model about segments that haven't changed.
-7. **Chunking for long transcripts** — a multi-hour video easily produces
+3. **Chunking for long transcripts** — a multi-hour video easily produces
    hundreds of segments, too many for one LLM call reliably; needs
    windowing, similar in spirit to how alignment already handles long
    audio.

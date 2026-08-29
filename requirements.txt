@@ -29,6 +29,7 @@ torch
 whisperx>=3.8.6
 sentence-transformers
 yt-dlp
+anthropic
 
 # IPython is used only by agent/verify.py's optional spot-check playback
 # (Colab/Jupyter only) -- not required to run the core pipeline, and

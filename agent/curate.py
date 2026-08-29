@@ -120,7 +120,15 @@ def call_curator_model(prompt: str, model: str = DEFAULT_MODEL) -> str:
         max_tokens=4096,
         messages=[{"role": "user", "content": prompt}],
     )
-    return response.content[0].text
+    # Don't assume content[0] is the text block -- when extended
+    # thinking is active, the response includes a ThinkingBlock
+    # *before* the TextBlock. Find the actual text block by type
+    # rather than trusting position; confirmed against a real
+    # AttributeError this exact assumption produced.
+    for block in response.content:
+        if block.type == "text":
+            return block.text
+    raise ValueError(f"No text block found in curator response: {response.content!r}")
 
 
 def curate_transcript(transcript: dict, criteria: str = DEFAULT_CRITERIA,
